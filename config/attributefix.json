@@ -121,6 +121,17 @@
         "value": 1000
       }
     },
+    "enhancedai:generic.xray_follow_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 256,
+        "value": 256
+      }
+    },
     "irons_spellbooks:lightning_magic_resist": {
       "enabled": false,
       "min": {

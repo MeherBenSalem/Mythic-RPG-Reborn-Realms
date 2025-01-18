@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "3261A2E078768D75"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["Quests will become available shortly <3"]
+		id: "4CAAF53CC98124E8"
+		rewards: [{
+			count: 16
+			id: "04610913C3CB2CD7"
+			item: "minecraft:cooked_beef"
+			type: "item"
+		}]
+		tasks: [{
+			id: "2EB61138A047A8D0"
+			title: "Work In Progress"
+			type: "checkmark"
+		}]
+		x: 3.5d
+		y: -2.0d
+	}]
+	title: "Welcome"
+}
