@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "Mythic_RPG_Reborn_Realms"
 	#The version of the modpack
-	modpackVersion = "0.1.3b"
+	modpackVersion = "0.2.0b"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
