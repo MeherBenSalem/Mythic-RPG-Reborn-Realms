@@ -1,121 +1,121 @@
 
 ["Attribute 1"]
 	enable = true
-	display_name = "§fHealth : §6"
-	attribute_namespace = "minecraft"
-	attribute_name = "generic.max_health"
-	#changes how to the attribute value displays when you hover (value * modifer)
-	display_modifer = 1.0
-
-["Attribute 2"]
-	enable = true
-	display_name = "§fDamage : §6"
+	display_name = "Damage §9⚔ | §9"
 	attribute_namespace = "minecraft"
 	attribute_name = "generic.attack_damage"
 	#changes how to the attribute value displays when you hover (value * modifer)
 	display_modifer = 1.0
 
+["Attribute 2"]
+	enable = true
+	display_name = "Crit % §4🎯 | §4"
+	attribute_namespace = "attributeslib"
+	attribute_name = "crit_chance"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 10.0
+
 ["Attribute 3"]
 	enable = true
-	display_name = "§fAS : §6"
-	attribute_namespace = "minecraft"
-	attribute_name = "generic.attack_speed"
+	display_name = "Crit Dmg §4💥 | §4"
+	attribute_namespace = "attributeslib"
+	attribute_name = "crit_damage"
 	#changes how to the attribute value displays when you hover (value * modifer)
 	display_modifer = 1.0
 
 ["Attribute 4"]
 	enable = true
-	display_name = "§fArmor : §6"
-	attribute_namespace = "minecraft"
-	attribute_name = "generic.armor"
+	display_name = "Pierce §8🔨 | §8"
+	attribute_namespace = "attributeslib"
+	attribute_name = "armor_pierce"
 	#changes how to the attribute value displays when you hover (value * modifer)
 	display_modifer = 1.0
 
 ["Attribute 5"]
 	enable = true
-	display_name = "§fMS : §6"
-	attribute_namespace = "minecraft"
-	attribute_name = "generic.movement_speed"
+	display_name = "Dodge §9💨 | §9"
+	attribute_namespace = "attributeslib"
+	attribute_name = "dodge_chance"
 	#changes how to the attribute value displays when you hover (value * modifer)
-	display_modifer = 100.0
+	display_modifer = 1.0
 
 ["Attribute 6"]
 	enable = true
-	display_name = "§fKnock Res : §6"
+	display_name = "HP §c❤️ | §c"
 	attribute_namespace = "minecraft"
-	attribute_name = "generic.knockback_resistance"
+	attribute_name = "generic.max_health"
 	#changes how to the attribute value displays when you hover (value * modifer)
-	display_modifer = 10.0
+	display_modifer = 1.0
 
 ["Attribute 7"]
 	enable = true
-	display_name = "§fToughness : §6"
-	attribute_namespace = "minecraft"
-	attribute_name = "generic.armor_toughness"
+	display_name = "Healing §a💚 | §a"
+	attribute_namespace = "attributeslib"
+	attribute_name = "healing_received"
 	#changes how to the attribute value displays when you hover (value * modifer)
 	display_modifer = 1.0
 
 ["Attribute 8"]
 	enable = true
-	display_name = "§fLuck: §6"
+	display_name = "§fLuck §a🍀| §a"
 	attribute_namespace = "minecraft"
 	attribute_name = "generic.luck"
 	#changes how to the attribute value displays when you hover (value * modifer)
 	display_modifer = 1.0
 
 ["Attribute 9"]
-	enable = false
-	display_name = "§fHealth : "
+	enable = true
+	display_name = "MS §9👟 | §9"
 	attribute_namespace = "minecraft"
-	attribute_name = "generic.max_health"
+	attribute_name = "generic.movement_speed"
 	#changes how to the attribute value displays when you hover (value * modifer)
-	display_modifer = 1.0
+	display_modifer = 10.0
 
 ["Attribute 10"]
-	enable = false
-	display_name = "§fHealth : "
+	enable = true
+	display_name = "AS §6⚡ | §6"
 	attribute_namespace = "minecraft"
-	attribute_name = "generic.max_health"
+	attribute_name = "generic.attack_speed"
 	#changes how to the attribute value displays when you hover (value * modifer)
 	display_modifer = 1.0
 
 ["Attribute 11"]
-	enable = false
-	display_name = "§fHealth : "
+	enable = true
+	display_name = "Knock Res §9🛡 | §9"
 	attribute_namespace = "minecraft"
-	attribute_name = "generic.max_health"
+	attribute_name = "generic.knockback_resistance"
 	#changes how to the attribute value displays when you hover (value * modifer)
 	display_modifer = 1.0
 
 ["Attribute 12"]
-	enable = false
-	display_name = "§fHealth : "
+	enable = true
+	display_name = "Luck §9🍀 | §9"
 	attribute_namespace = "minecraft"
-	attribute_name = "generic.max_health"
+	attribute_name = "generic.luck"
 	#changes how to the attribute value displays when you hover (value * modifer)
 	display_modifer = 1.0
 
 ["Attribute 13"]
-	enable = false
-	display_name = "§fHealth : "
-	attribute_namespace = "minecraft"
-	attribute_name = "generic.max_health"
+	enable = true
+	display_name = "Arrow Dmg §9🏹 | §9"
+	attribute_namespace = "attributeslib"
+	attribute_name = "arrow_damage"
 	#changes how to the attribute value displays when you hover (value * modifer)
 	display_modifer = 1.0
 
 ["Attribute 14"]
-	enable = false
-	display_name = "§fHealth : "
-	attribute_namespace = "minecraft"
-	attribute_name = "generic.max_health"
+	enable = true
+	display_name = "Draw Speed §9🏹 | §9"
+	attribute_namespace = "attributeslib"
+	attribute_name = "draw_speed"
 	#changes how to the attribute value displays when you hover (value * modifer)
 	display_modifer = 1.0
 
 ["Attribute 15"]
 	enable = false
-	display_name = "§fHealth : "
-	attribute_namespace = "minecraft"
-	attribute_name = "generic.max_health"
+	display_name = "Drawn Speed §9🏹 | §9"
+	attribute_namespace = "attributeslib"
+	attribute_name = "arrow_damage"
 	#changes how to the attribute value displays when you hover (value * modifer)
 	display_modifer = 1.0
 
