@@ -1,4 +1,24 @@
-## [0.1.0a]
+## [0.1.2a]
+
+### Added
+- FancyMenu
+
+### Changed
+- Open Minecraft Main Menu
+
+### Updated
+- Motp Attributes Classes
+- Balanced starting attributes
+- Balanced stats gains
+
+### Fixed
+- Fixed starting keys config
+
+- **All the Mods**
+- **Forge 47.3.22**
+
+
+## [0.1.1a]
 
 ## Added Mods
 - No Nether Portal
