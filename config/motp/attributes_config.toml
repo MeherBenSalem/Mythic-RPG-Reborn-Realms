@@ -1,7 +1,7 @@
 
 ["Attribute 1"]
 	display_name = "Vitality : "
-	cmd_to_exc = ["/attribute @p minecraft:generic.max_health base set [param(10.0)]", "/attribute @p attributeslib:healing_received base set [param(0.005)]", "effect give @p minecraft:instant_health 20 3"]
+	cmd_to_exc = ["/attribute @p minecraft:generic.max_health base set [param(10.0)]", "effect give @p minecraft:instant_health 20 3"]
 	tip_to_display = "§7Increases your maximum health and enhances the effectiveness of healing received."
 	max_level = 100.0
 	base_value_per_point = 1.0
@@ -33,7 +33,7 @@
 
 ["Attribute 5"]
 	display_name = "Speed : "
-	cmd_to_exc = ["/attribute @p minecraft:generic.attack_speed base set [param(1)]", "/attribute @p attributeslib:mining_speed base set [param(0.1)]"]
+	cmd_to_exc = ["/attribute @p minecraft:generic.attack_speed base set [param(1)]"]
 	tip_to_display = "§7Increases your attack speed and boosts the speed at which blocks are mined."
 	max_level = 30.0
 	base_value_per_point = 1.0
@@ -64,10 +64,10 @@
 	lock = false
 
 ["Attribute 9"]
-	cmd_to_exc = [""]
+	cmd_to_exc = ["/attribute @p attributeslib:mining_speed base set [param(0.05)]"]
 	max_level = 50.0
 	base_value_per_point = 1.0
-	lock = true
+	lock = false
 	"display_name " = ""
 	"tip_to_display " = ""
 

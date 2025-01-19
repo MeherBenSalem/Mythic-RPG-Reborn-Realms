@@ -1,0 +1,17 @@
+
+["Earthly Hammer"]
+	cooldown = 100.0
+	range = 10.0
+	damage = 10.0
+
+["Obsidian Hammer"]
+	cooldown = 300.0
+	range = 10.0
+	damage = 30.0
+
+["Rose Gold Hammer"]
+	cooldown = 300.0
+	range = 10.0
+	buff_power = 1.0
+	buff_duration = 100.0
+

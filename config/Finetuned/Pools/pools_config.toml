@@ -1,0 +1,7 @@
+
+["Hollow Man's Ruyi Jingu Staff"]
+	Buff_Level = 2.0
+	Buff_Duration = 7.0
+	#in ticks (1 Tick = 0.05 sec)
+	Cooldown = 250.0
+

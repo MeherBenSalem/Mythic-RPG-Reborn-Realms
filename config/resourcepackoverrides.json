@@ -1,0 +1,12 @@
+{
+  "schema_version": "2",
+  "default_packs": [
+    "file/waystones_1.20.zip",
+    "file/VisibleOres2.10.zip",
+    "file/Fancy, GUI Overhaul v0.1.2.8 (Dark)",
+    "file/EnderEyes_1.20.1_v3.zip",
+    "file/AnimEmis_spartanfire_1.20.1.zip",
+    "file/Clear Glass Pack 1.20.zip",
+    "file/motp_ui.zip"
+  ]
+}
