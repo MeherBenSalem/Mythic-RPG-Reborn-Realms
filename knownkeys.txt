@@ -188,3 +188,8 @@ key.inventoryhud.toggleall
 key.entityculling.toggle
 supplementaries.keybind.quiver
 key.pickup.item
+key.toms_storage.open_terminal
+key.azurelib.reload
+key.azurelib.scope
+key.azurelib.fire
+key.spartanshields.alt_shield_bash
