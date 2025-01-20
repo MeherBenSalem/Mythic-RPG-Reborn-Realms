@@ -1,3 +1,43 @@
+## [0.2.0b]
+
+## Mods Added
+- Drippy Loading Screen
+- Spartan Shields
+- Spartan Weaponry: Ice and fire
+- Resource Pack Overrides
+- Overflowing Bars
+- Croptopia
+- Login Protection
+- Relics: Artifact Compat
+- Formations Overworld
+- Akashic Tome
+- Dungeons and Taverns
+- Loot Integrations
+- Epic Knights
+- Sky Villages
+- Illager Warship
+- Philip's Ruins
+- Mobs of Mythology
+- Custom Item Attributes (CIA)
+- Blur
+- Variant Tools
+- Tom's Simple Storage
+
+## Mods Removed
+- Colorful Heals
+
+## Gameplay Changes
+- Removed **level-up rewards**
+- Removed **health regeneration attribute**
+- Reduced **health blood effect duration**h
+- Added **mining attribute** in the menu
+
+## UI and Visual Updates
+- Added **Custom Icon**
+- Added **Custom Resource Pack for Icons**
+- Added **Custom Loading Screen**
+- Updated all the mods
+
 ## [0.1.2a]
 
 ### Added
