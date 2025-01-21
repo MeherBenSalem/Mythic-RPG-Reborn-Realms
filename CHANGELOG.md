@@ -1,3 +1,72 @@
+## [0.2.1]
+
+### **New Additions**
+- **Inventory Essentials**: Enhances inventory management features.
+- **Inventory Sorter**: Adds quick sorting functionality to inventories.
+- **CullLessLeaves**: Improves FPS by optimizing leaf rendering.
+- **Attribute Tooltip Fix**: Fixes tooltip issues with attribute displays.
+- **Quark**: Adds numerous vanilla-style improvements and features.
+- **Starlight**: Replaces the lighting engine for improved performance.
+- **Wesley's Roguelike Dungeons**: Introduces procedurally generated dungeon structures.
+- **Crafting on a Stick**: Adds portable crafting functionality.
+- **JeremySeq's Damage Indicators**: Displays detailed damage information in combat.
+
+### **Balance Changes**
+- **Leveling**: 
+  - Changed first-level XP requirement from **90** to **900**.
+  
+- **Critical Hits**: 
+  - Adjusted critical chance scaling: **1% per level**.
+  - Adjusted critical damage scaling: **15% per level**.
+
+- **Loot Gains**: 
+  - Reduced lootbag drop rate from **15%** → **10%**.
+
+### **Mob Adjustments**
+
+- **Ice and Fire Dragons**: Now always have a level of **75**
+
+- **Cyclops**: Now always have a level of **35**.
+
+- **Max Health**:  (All Mobs)
+  - Increased from **500** to **9000**.
+
+- **Max Damage**:  (All Mobs)
+  - Increased from **400** to **500**.
+
+- **Ascendant Mobs**:  (All Mobs)
+  - Minimum level increased from **25** to **200**.
+
+- **Dragon Skeletons**:
+  - Remains **1 per 800 chunks**.
+
+- **Dragon Cave Chance**:
+  - Changed to **1 per 250 chunks**.
+
+- **Dragon Roost Chance**:
+  - Changed to **1 per 600 chunks**.
+
+- **Dangerous World Gen**:
+  - Distance from spawn increased from **800** to **10000**.
+
+- **Cyclops Cave Chance**:
+  - Changed to **1 per 1000 chunks**.
+
+- **Wandering Cyclops Chance**:
+  - Set to **1 per 500 chunks**
+
+- **Cyclops Max Health**:
+  - Increased from **150** to **1500**
+
+- **Dragon Health Max**:
+  - Increased to **10000**
+
+- **Dragon Attack Damage**:
+  - Increased from **17** to **170**
+
+### **Mod Updates**
+- All mods have been updated
+
 ## [0.2.0b]
 
 ## Mods Added
