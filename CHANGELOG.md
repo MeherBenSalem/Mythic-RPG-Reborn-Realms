@@ -1,6 +1,7 @@
 ## [0.2.2]
 
 - **Updated all the mods**
+- **Updated Instagram+TikTok links**
 - **Added Finetuned Weaponry**
 - **Added Create + Create Craft & Additions**
 - **No origin will spawn in the Nether anymore**
