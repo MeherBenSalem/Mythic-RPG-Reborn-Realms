@@ -159,7 +159,7 @@
 	[origins."origins:blazeborn"]
 		enabled = true
 		"origins:fire_immunity" = true
-		"origins:nether_spawn" = true
+		"origins:nether_spawn" = false
 		"origins:burning_wrath" = true
 		"origins:hotblooded" = true
 		"origins:water_vulnerability" = true
@@ -475,7 +475,7 @@
 
 	[origins."origins-plus-plus:magmean"]
 		enabled = true
-		"origins:nether_spawn" = true
+		"origins:nether_spawn" = false
 		"origins:water_vulnerability" = true
 		"origins:fire_immunity" = true
 		"origins:light_armor" = true
@@ -547,7 +547,7 @@
 		"origins-plus-plus:volcanic-dragon/lava_breath" = true
 		"origins-plus-plus:volcanic-dragon/natural_armor" = true
 		"origins-plus-plus:volcanic-dragon/natural_strength" = true
-		"origins-plus-plus:volcanic-dragon/nether_spawn" = true
+		"origins-plus-plus:volcanic-dragon/nether_spawn" = false
 		"origins-plus-plus:volcanic-dragon/slowness_in_cold" = true
 		"origins-plus-plus:volcanic-dragon/two_extra_hearts" = true
 		"origins-plus-plus:volcanic-dragon/volcanic_dash" = true
@@ -694,7 +694,7 @@
 		"origins-plus-plus:ebon-wing/fly" = true
 		"origins-plus-plus:ebon-wing/last_resort" = true
 		"origins-plus-plus:ebon-wing/last_resort_cooldown" = true
-		"origins-plus-plus:ebon-wing/nether_spawn" = true
+		"origins-plus-plus:ebon-wing/nether_spawn" = false
 		"origins-plus-plus:ebon-wing/night_strength" = true
 		"origins-plus-plus:ebon-wing/resistance" = true
 		"origins-plus-plus:ebon-wing/smite_being" = true
@@ -778,7 +778,7 @@
 
 	[origins."origins-plus-plus:half_wither"]
 		enabled = true
-		"origins:nether_spawn" = true
+		"origins:nether_spawn" = false
 		"origins-plus-plus:half-wither/exhaust" = true
 		"origins-plus-plus:half-wither/immunity" = true
 		"origins-plus-plus:half-wither/soul_feed" = true
@@ -1619,7 +1619,7 @@
 		enabled = true
 		"origins:fire_immunity" = true
 		"origins:fragile" = true
-		"origins:nether_spawn" = true
+		"origins:nether_spawn" = false
 		"origins:slow_falling" = true
 		"origins:translucent" = true
 		"origins-plus-plus:ghast/fire_charge" = true
@@ -1651,7 +1651,7 @@
 
 	[origins."origins-plus-plus:hellforged"]
 		enabled = true
-		"origins:nether_spawn" = true
+		"origins:nether_spawn" = false
 		"origins:fire_immunity" = true
 		"origins-plus-plus:hellforged/heat_powered" = true
 		"origins-plus-plus:hellforged/impervious_eyes" = true

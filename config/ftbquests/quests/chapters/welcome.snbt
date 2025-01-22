@@ -1,27 +1,217 @@
 {
+	autofocus_id: "4CAAF53CC98124E8"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "welcome"
 	group: ""
+	icon: "minecraft:grass_block"
 	id: "3261A2E078768D75"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: ["Quests will become available shortly <3"]
-		id: "4CAAF53CC98124E8"
-		rewards: [{
-			count: 16
-			id: "04610913C3CB2CD7"
-			item: "minecraft:cooked_beef"
-			type: "item"
-		}]
-		tasks: [{
-			id: "2EB61138A047A8D0"
-			title: "Work In Progress"
-			type: "checkmark"
-		}]
-		x: 3.5d
-		y: -2.0d
-	}]
+	quests: [
+		{
+			description: [
+				"&6Welcome to &eMythic RPG Modpack&6! &l🌟"
+				""
+				"&fEmbark on an epic journey where &6adventure&f, &6mystery&f, and &6limitless power &fawait."
+				""
+				"&fWith unique &6RPG mechanics&f, &6mythical loot&f, &6custom leveling systems&f, and &6countless challenges&f, your story is yours to forge."
+				""
+				"&aChoose your path, shape your destiny, and become a true legend."
+				""
+				"&cAre you ready to take on the Mythic challenge? Let the adventure begin! &l🚀"
+			]
+			id: "4CAAF53CC98124E8"
+			rewards: [{
+				count: 16
+				id: "04610913C3CB2CD7"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EB61138A047A8D0"
+				title: "Work In Progress"
+				type: "checkmark"
+			}]
+			title: "Welcome to Mythic RPG"
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CAAF53CC98124E8"]
+			description: [
+				"&fRumors speak of a fiery dimension filled with danger and treasure, but something feels... off."
+				""
+				"&dThe world may not yet be ready for the Nether’s challenges. Patience, adventurer, greater things await in time."
+				""
+				"&cFor now, focus on the journey in this realm. Who knows what mysteries might unfold?"
+			]
+			hide_details_until_startable: false
+			icon: "minecraft:netherrack"
+			id: "44D3497EB27DDE9A"
+			rewards: [{
+				count: 4
+				id: "2BD3645020556304"
+				item: "croptopia:chocolate_milkshake"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54C4F4112C3F7575"
+				title: "&eA World Beyond"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2EEB50066EB92574"]
+			description: [
+				"&fSmooth adventure begins with a well-prepared world. To avoid unexpected delays in your journey, pre-generating the land is highly recommended.&r"
+				""
+				"&2- Use the &eChunky&2 to pre-load key regions of the map"
+				""
+				"&dThis step ensures your travels are seamless and free of disruptions. The world is vast—let’s make it ready for your legend to unfold!"
+				""
+				"&cRemember, preparation is the foundation of success"
+			]
+			icon: "minecraft:grass_block"
+			id: "1561583C53BBDE85"
+			rewards: [{
+				count: 6
+				id: "53AB0D35DCEDC815"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2548C80EC031B424"
+				title: "&ePrepare the Realm"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11AF3C5856054AA0"]
+			description: [
+				"&fEvery great hero begins as a novice. To survive in this challenging world, you must grow stronger and master your abilities.&r"
+				""
+				"&2- XP can be obtained by killing mobs, but mainly by doing Quests"
+				""
+				"&fWith each level, your strength and skill will grow, paving the way for greater challenges and rewards&r"
+			]
+			icon: "memory_of_the_past:great_drop_of_knowledge"
+			id: "1E59B5198B53480E"
+			rewards: [{
+				command: "/motp add xp 300 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "54572A557BB46423"
+				silent: true
+				title: "+300 xp"
+				type: "command"
+			}]
+			subtitle: "access the menu with \"O\""
+			tasks: [{
+				id: "312DEB178A8496FD"
+				title: "Leveling"
+				type: "checkmark"
+			}]
+			title: "&eThe Path to Power"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44D3497EB27DDE9A"]
+			description: [
+				"&fThe further you venture from safety, the stronger the enemies become. The world adapts to your bravery—or your recklessness&r"
+				""
+				"&dThe world challenges those who dare to explore. Distance tests your strength—do you have what it takes to survive?"
+			]
+			hide_details_until_startable: false
+			icon: "minecraft:zombie_head"
+			id: "2EEB50066EB92574"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:knowledge"
+							lvl: 3s
+						}]
+					}
+				}
+				id: "1112B4CD6880CDEB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "23D7A218F48C742B"
+				title: "&eScaling Shadows"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E59B5198B53480E"]
+			description: ["&fThe art of weapon crafting is a powerful skill in this world. With the right materials, you can forge weapons of incredible quality, each with unique attributes and enhancements. Your challenge is to craft a weapon worthy of a legend."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BE8B3F0E194513A"
+			rewards: [
+				{
+					id: "029C728F4D15423E"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/motp add xp 200 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "3A97AF641D0960FA"
+					silent: true
+					title: "+200 xp"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "476F3A9955CDE933"
+				title: "&eForging the Perfect Weapon"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1561583C53BBDE85"]
+			description: ["&fThe world is full of surprises, and some of the best rewards come when you least expect them. Lucky Lootbags contain valuable treasures, but you’ll need to earn them."]
+			id: "11AF3C5856054AA0"
+			rewards: [{
+				id: "591DDE0E02B23C74"
+				item: "mob_loot_bags:rarelootbag"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1612CC86AEC96A94"
+				item: "mob_loot_bags:commonlootbag"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+	]
 	title: "Welcome"
 }

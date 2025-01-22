@@ -1,3 +1,16 @@
+## [0.2.2]
+
+- **Updated all the mods**
+- **Added Finetuned Weaponry**
+- **Added Create + Create Craft & Additions**
+- **No origin will spawn in the Nether anymore**
+- **Updated crit damage + crit chance display**
+- **Power no longer increases crit damage**
+- **Added Welcome Chapter Quests** to explain the main mechanics of the modpack
+- **Changed fancy UI** to a unique dark UI
+- **Removed Visible Ores Resource Pack**
+- **Removed Custom item attributes**
+
 ## [0.2.1]
 
 ### **New Additions**

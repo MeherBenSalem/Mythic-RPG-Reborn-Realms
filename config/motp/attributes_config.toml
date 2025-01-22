@@ -6,14 +6,16 @@
 	max_level = 100.0
 	base_value_per_point = 1.0
 	lock = false
+	init_val_attribute_one = 2.0
 
 ["Attribute 2"]
 	display_name = "Power : "
-	cmd_to_exc = ["/attribute @p attributeslib:crit_chance base set [param(0.01)]", "/attribute @p attributeslib:crit_damage base set [param(0.015)]", "/attribute @p minecraft:generic.attack_damage base set [param(5.0)]"]
-	tip_to_display = "§7Increases the likelihood of critical hits, boosts critical damage, and enhances overall attack damage."
+	cmd_to_exc = ["/attribute @p attributeslib:crit_chance base set [param(0.005)]", "/attribute @p minecraft:generic.attack_damage base set [param(5.0)]"]
+	tip_to_display = "§7Increases the likelihood of critical hits, and enhances overall attack damage."
 	max_level = 100.0
 	base_value_per_point = 1.0
 	lock = false
+	init_val_attribute_two = 1.0
 
 ["Attribute 3"]
 	display_name = "Resilience : "
@@ -22,6 +24,7 @@
 	max_level = 100.0
 	base_value_per_point = 1.0
 	lock = false
+	init_val_attribute_three = 0.0
 
 ["Attribute 4"]
 	display_name = "Ranged Mastery : "
@@ -30,6 +33,7 @@
 	max_level = 100.0
 	base_value_per_point = 1.0
 	lock = false
+	init_val_attribute_forth = 10.0
 
 ["Attribute 5"]
 	display_name = "Speed : "
@@ -38,6 +42,7 @@
 	max_level = 30.0
 	base_value_per_point = 1.0
 	lock = false
+	init_val_attribute_fifth = 4.0
 
 ["Attribute 6"]
 	display_name = "Arcane Power : "
@@ -46,6 +51,7 @@
 	max_level = 100.0
 	base_value_per_point = 1.0
 	lock = false
+	init_val_attribute_sixth = 0.0
 
 ["Attribute 7"]
 	display_name = "Mana Flow : "
@@ -54,6 +60,7 @@
 	max_level = 100.0
 	base_value_per_point = 1.0
 	lock = false
+	init_val_attribute_seventh = 10.0
 
 ["Attribute 8"]
 	display_name = "Casting Efficiency : "
@@ -62,6 +69,7 @@
 	max_level = 100.0
 	base_value_per_point = 1.0
 	lock = false
+	init_val_attribute_eight = 0.0
 
 ["Attribute 9"]
 	cmd_to_exc = ["/attribute @p attributeslib:mining_speed base set [param(0.05)]"]
@@ -70,6 +78,7 @@
 	lock = false
 	"display_name " = ""
 	"tip_to_display " = ""
+	init_val_attribute_nine = 20.0
 
 ["Attribute 10"]
 	cmd_to_exc = [""]
@@ -78,4 +87,8 @@
 	lock = true
 	"display_name " = ""
 	"tip_to_display " = ""
+	init_val_attribute_ten = 0.0
+
+["General Settings"]
+	init_val_starting_level = 1.0
 

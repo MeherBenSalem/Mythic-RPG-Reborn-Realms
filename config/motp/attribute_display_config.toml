@@ -13,7 +13,7 @@
 	attribute_namespace = "attributeslib"
 	attribute_name = "crit_chance"
 	#changes how to the attribute value displays when you hover (value * modifer)
-	display_modifer = 10.0
+	display_modifer = 100.0
 
 ["Attribute 3"]
 	enable = true
@@ -21,7 +21,7 @@
 	attribute_namespace = "attributeslib"
 	attribute_name = "crit_damage"
 	#changes how to the attribute value displays when you hover (value * modifer)
-	display_modifer = 1.0
+	display_modifer = 100.0
 
 ["Attribute 4"]
 	enable = true
