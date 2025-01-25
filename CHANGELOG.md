@@ -1,3 +1,24 @@
+## [0.2.3]
+
+## Additions
+- **Default Skill Tree**  
+- **Medieval Origins Revival**  
+- **Alternate Origin GUI**  
+- **More Mob Variants**  
+- **Medieval Music**  
+- **Biome Music**  
+- **MCA Reborn**  
+
+## Updates
+- Now you will always spawn in a shipwreck when first joining the game
+- Updated All the Mods
+
+## Removals
+- **Origins ++**
+
+## Fixes
+- Fixed visual bugs when crafting items in the crafting table.
+
 ## [0.2.2]
 
 - **Updated all the mods**
