@@ -47,6 +47,7 @@
 				"&cFor now, focus on the journey in this realm. Who knows what mysteries might unfold?"
 			]
 			hide_details_until_startable: false
+			hide_until_deps_complete: true
 			icon: "minecraft:netherrack"
 			id: "44D3497EB27DDE9A"
 			rewards: [{
@@ -60,11 +61,11 @@
 				title: "&eA World Beyond"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: -3.0d
+			x: 9.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["2EEB50066EB92574"]
+			dependencies: ["4CAAF53CC98124E8"]
 			description: [
 				"&fSmooth adventure begins with a well-prepared world. To avoid unexpected delays in your journey, pre-generating the land is highly recommended.&r"
 				""
@@ -74,6 +75,7 @@
 				""
 				"&cRemember, preparation is the foundation of success"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:grass_block"
 			id: "1561583C53BBDE85"
 			rewards: [{
@@ -87,11 +89,11 @@
 				title: "&ePrepare the Realm"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 9.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["11AF3C5856054AA0"]
+			dependencies: ["4CAAF53CC98124E8"]
 			description: [
 				"&fEvery great hero begins as a novice. To survive in this challenging world, you must grow stronger and master your abilities.&r"
 				""
@@ -99,6 +101,7 @@
 				""
 				"&fWith each level, your strength and skill will grow, paving the way for greater challenges and rewards&r"
 			]
+			hide_until_deps_complete: true
 			icon: "memory_of_the_past:great_drop_of_knowledge"
 			id: "1E59B5198B53480E"
 			rewards: [{
@@ -117,17 +120,18 @@
 				type: "checkmark"
 			}]
 			title: "&eThe Path to Power"
-			x: 6.5d
-			y: -1.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["44D3497EB27DDE9A"]
+			dependencies: ["4CAAF53CC98124E8"]
 			description: [
 				"&fThe further you venture from safety, the stronger the enemies become. The world adapts to your bravery—or your recklessness&r"
 				""
 				"&dThe world challenges those who dare to explore. Distance tests your strength—do you have what it takes to survive?"
 			]
 			hide_details_until_startable: false
+			hide_until_deps_complete: true
 			icon: "minecraft:zombie_head"
 			id: "2EEB50066EB92574"
 			rewards: [{
@@ -150,8 +154,8 @@
 				title: "&eScaling Shadows"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1E59B5198B53480E"]
@@ -191,12 +195,13 @@
 				title: "&eForging the Perfect Weapon"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: -1.0d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1561583C53BBDE85"]
+			dependencies: ["4CAAF53CC98124E8"]
 			description: ["&fThe world is full of surprises, and some of the best rewards come when you least expect them. Lucky Lootbags contain valuable treasures, but you’ll need to earn them."]
+			hide_until_deps_complete: true
 			id: "11AF3C5856054AA0"
 			rewards: [{
 				id: "591DDE0E02B23C74"
@@ -209,8 +214,8 @@
 				item: "mob_loot_bags:commonlootbag"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: 6.5d
+			y: -2.5d
 		}
 	]
 	title: "Welcome"

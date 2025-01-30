@@ -1,3 +1,20 @@
+## [0.3.0]
+
+## Updated All the Mods
+## Updated the shaders
+
+## Additions
+- Added Samurai Dynasty
+- Added JER
+- Added Equipment Compare
+
+- Changed first chapter quests layout
+- Added storage chapter quests
+
+## Removed
+- Removed Quality Equipments
+
+
 ## [0.2.3]
 
 ## Additions

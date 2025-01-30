@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","file/AnimEmis_spartanfire_1.20.1.zip","file/Clear Glass Pack 1.20.zip","file/EclecticTrove-1.20.1-1.3.0.zip","file/EnderEyes_1.20.1_v3.zip","file/Fancy, GUI Overhaul v0.1.2.8 (Dark).zip","file/VisibleOres2.10.zip","file/[1.4.1] Enhanced Boss Bars.zip","file/waystones_1.20.zip","file/motp_ui.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","file/AnimEmis_spartanfire_1.20.1.zip","file/Clear Glass Pack 1.20.zip","file/EclecticTrove-1.20.1-1.3.0.zip","file/EnderEyes_1.20.1_v3.zip","file/[1.4.1] Enhanced Boss Bars.zip","file/waystones_1.20.zip","file/motp_ui.zip"]
 incompatibleResourcePacks:["file/AnimEmis_spartanfire_1.20.1.zip","file/motp_ui.zip"]
 lastServer:
 lang:en_us
@@ -85,7 +85,7 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

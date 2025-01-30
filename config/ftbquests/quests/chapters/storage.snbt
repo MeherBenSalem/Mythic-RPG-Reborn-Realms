@@ -1,0 +1,494 @@
+{
+	autofocus_id: "5A718EE9989F47FA"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: ""
+	icon: "minecraft:chest"
+	id: "2EA057D62561AD3D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["In the early stages of your journey, you'll need a reliable place to store your items. A simple Wooden Chest is the perfect solution for organizing the basics of your inventory. It's a great starting point to keep your resources safe!"]
+			id: "1FF7A88ABD762276"
+			rewards: [{
+				command: "/motp add xp 25 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "0743B251418D01CB"
+				title: "+25 xp"
+				type: "command"
+			}]
+			subtitle: "Craft a Wooden Chest using 8 Wooden Planks and 1 Crafting Table"
+			tasks: [{
+				id: "3D7C549A2F34F6E6"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1003847FAC5D2A55"]
+			description: ["Double even more your storage space and have a even more durable container to store your items"]
+			id: "4F2BA33457873806"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "12DF557EC5BE78AA"
+					title: "+100 xp"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "055E12DA14520D42"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Iron Chest using iron ingots and a copper chest."
+			tasks: [{
+				id: "50536488B68CC1F7"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1FF7A88ABD762276"]
+			description: ["As you begin your journey, your storage needs will soon surpass the simple wooden chest. With an Copper Chest, you can double your storage space and have a more durable container to store your items. Craft an Copper Chest to get started on your path to organization!"]
+			icon: "ironchest:copper_chest"
+			id: "1003847FAC5D2A55"
+			rewards: [
+				{
+					command: "/motp add xp 50 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "6DF4E8D552BABAFC"
+					title: "+50 xp"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "0C60D62820C3FFA8"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Copper Chest using Copper ingots and a wooden chest"
+			tasks: [{
+				id: "7BED0820D081E176"
+				item: "ironchest:copper_chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F2BA33457873806"]
+			description: ["Now that you've crafted your Iron Chest, it's time to step up your storage game! Upgrade to a Gold Chest for even more space and greater durability. Gold Chests will hold even more items, perfect for when you start storing large amounts of materials"]
+			id: "748A014CA7998089"
+			rewards: [
+				{
+					command: "/motp add xp 150 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "38EF0D86036684D9"
+					title: "+150 xp"
+					type: "command"
+				}
+				{
+					id: "0AA440B39BFCE92C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Gold Chest using a Gold Ingot and an Iron Chest"
+			tasks: [{
+				id: "44B443E4AD94E4BB"
+				item: "ironchest:gold_chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["748A014CA7998089"]
+			description: ["At this stage, you’ve mastered the art of storage! Now it’s time to craft the pinnacle of chests: the Diamond Chest. With this chest, you’ll have a huge storage space and added durability to withstand the toughest of challenges."]
+			id: "166A5408FAE36AB1"
+			rewards: [{
+				command: "/motp add xp 300 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "0854DC598C6FC14D"
+				title: "+300 xp"
+				type: "command"
+			}]
+			subtitle: "Craft a Diamond Chest using Diamonds and a Gold Chest"
+			tasks: [{
+				id: "120EE2DB0B17E3F1"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["166A5408FAE36AB1"]
+			description: ["The Crystal Chest offers more than just storage space—it’s transparent! You’ll be able to see exactly what’s inside without opening it. Perfect for organizing all your precious items in a visually efficient way."]
+			id: "39A6338E978C15EC"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "245DD44328B7920C"
+					title: "+100 xp"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "4084EC03306DE99C"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Crystal Chest using Glass and a Gold or Diamond Chest"
+			tasks: [{
+				id: "3D66BF097E7004C7"
+				item: "ironchest:crystal_chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			description: ["It's time to upgrade your storage system! A Sophisticated Backpack will allow you to carry your items with you on the go. This backpack can hold a significant amount of items, freeing up space in your inventory for more important things"]
+			id: "5A718EE9989F47FA"
+			rewards: [{
+				command: "/motp add xp 25 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "5C38D951672D538E"
+				title: "+25 xp"
+				type: "command"
+			}]
+			subtitle: "Craft a Basic Backpack using Leather, String, and a Chest"
+			tasks: [{
+				id: "07F510BA884E0E79"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A718EE9989F47FA"]
+			description: ["This backpack will allow you to carry a decent amount of items, freeing up precious space in your inventory. It's the first step towards a more organized adventure!"]
+			id: "680F7E26B56EC146"
+			rewards: [
+				{
+					command: "/motp add xp 50 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "046BD6A65EAD4E9B"
+					title: "+50 xp"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "24D68134C7D6DA8B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Copper Backpack"
+			tasks: [{
+				id: "5DBD218E5F9B7F8B"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["680F7E26B56EC146"]
+			description: ["Now that you have your Copper Backpack, it's time to upgrade! The Iron Backpack offers more storage space and durability, allowing you to carry even more resources as you explore and mine."]
+			id: "6BF87B0D8B9802F1"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "3233AE1DE060CB05"
+					title: "+100 xp"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5F36B1DB21A8AFA0"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Iron Backpack"
+			tasks: [{
+				id: "452976EBAB952C4B"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6BF87B0D8B9802F1"]
+			description: ["With your Iron Backpack in hand, you’re ready to move up the tier list! The Gold Backpack not only increases storage space but also boosts durability, ensuring your items are always safely stored. Perfect for adventurers with more resources!"]
+			id: "790DCF68EC628047"
+			rewards: [
+				{
+					command: "/motp add xp 150 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "3DB98057D6C17746"
+					title: "+150 xp"
+					type: "command"
+				}
+				{
+					id: "7E1EDB3A752A9622"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Gold Backpack"
+			tasks: [{
+				id: "5752D8BED9C97122"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["790DCF68EC628047"]
+			description: ["The Diamond Backpack is the ultimate in storage capacity and resilience. With this tier, your adventures will be far more efficient as you carry more items without fear of running out of space. It’s a must-have for serious explorers!"]
+			id: "5AD951DB2D48B791"
+			rewards: [
+				{
+					command: "/motp add xp 300 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "11781D35DBA6FBB4"
+					title: "+300 xp"
+					type: "command"
+				}
+				{
+					id: "61E5F9296DDDDACD"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Diamond Backpack"
+			tasks: [{
+				id: "32D77DF3F0FC1168"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5AD951DB2D48B791"]
+			description: [
+				"At long last, you’ve reached the pinnacle of backpack technology "
+				"the Netherite Backpack! With this advanced backpack, you’ll have the highest storage capacity and durability available, ensuring your items are protected wherever you go!"
+			]
+			id: "5422B7648C1CAF85"
+			rewards: [{
+				command: "/motp add xp 1000 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "71A15A9057A81F3D"
+				title: "+25 xp"
+				type: "command"
+			}]
+			subtitle: "Craft a Netherite Backpack"
+			tasks: [{
+				id: "33896D35F3ED04C1"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["79AE9DB00C54BF50"]
+			description: ["Now that you have your Inventory Cables, it’s time to make your system more flexible. The Inventory Connector links your storage network to any chest or storage crate, making it easier to organize and access your items!"]
+			hide_details_until_startable: false
+			id: "629E1CC9B4E9171D"
+			rewards: [{
+				command: "/motp add xp 250 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "2DA13AEBA879DF71"
+				title: "+250 xp"
+				type: "command"
+			}]
+			subtitle: "Craft a Inventory Connector"
+			tasks: [{
+				id: "198C41611B06D7A7"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D56125A8CD8ACF1"]
+			description: ["The Storage Terminal is the key to accessing your storage network. With it, you can see all your stored items in one convenient interface. Get started by crafting a basic and the crafting terminals to manage your inventory"]
+			id: "08F0B925B40F4043"
+			rewards: [{
+				command: "/motp add xp 500 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "59946A8D620C5DDD"
+				title: "+500 xp"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "273E3E0605C9EA02"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+				{
+					id: "469A72C49F3CBE05"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			description: ["You’ve gathered your resources, and now it's time to make your storage system more efficient. The Inventory Cable allows you to connect your storage crates and terminals, making it easier to access all your items from one central location"]
+			id: "79AE9DB00C54BF50"
+			rewards: [{
+				command: "/motp add xp 50 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "5D2AE3F51F0B360E"
+				title: "+50 xp"
+				type: "command"
+			}]
+			subtitle: "Craft an Inventory Cable"
+			tasks: [{
+				count: 12L
+				id: "53734C57C5E78D01"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			title: "Connect Your First Storage System"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["629E1CC9B4E9171D"]
+			description: ["Attach this to both the inventory system and the terminal"]
+			id: "7D56125A8CD8ACF1"
+			rewards: [{
+				command: "/motp add xp 300 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "2B63A751AF614E51"
+				title: "+300 xp"
+				type: "command"
+			}]
+			subtitle: "Craft an Inventory Cable Connector"
+			tasks: [{
+				id: "589F200864DE204F"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08F0B925B40F4043"]
+			description: ["With all these terminals and connectors, you’ve mastered storage management. Now, take it to the next level with the Wireless Terminal. This terminal allows you to access your storage network from anywhere, no longer tied to a physical connection"]
+			id: "4CCA7D7B779E1D86"
+			rewards: [{
+				command: "/motp add xp 500 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "294560DD7E51EBE9"
+				title: "+500 xp"
+				type: "command"
+			}]
+			subtitle: "Craft a Wireless Terminal"
+			tasks: [{
+				id: "2D3B37C17AD95B58"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4CCA7D7B779E1D86"]
+			description: ["Your Netherite Storage Terminal is powerful, but there’s one final step to truly unlock its full potential: the Beacon Link. With this special beacon, you can access your storage system from anywhere in the world, no longer limited by location. Setting up the Beacon Link will give you the freedom to manage your items no matter where you are"]
+			id: "1CBA7083FB22AC64"
+			rewards: [{
+				command: "/motp add xp 1000 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "4577D3DCFBB3FC35"
+				title: "+1000 xp"
+				type: "command"
+			}]
+			subtitle: "Craft a Netherite Wireless Storage Terminal and a beacon"
+			tasks: [
+				{
+					id: "2E38B65A1C2AB51F"
+					item: "toms_storage:ts.adv_wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "4E9AC7DD1000F22C"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			title: "Ultimate Netherite Storage Terminal"
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"39A6338E978C15EC"
+				"5422B7648C1CAF85"
+				"1CBA7083FB22AC64"
+			]
+			description: ["You've unlocked all the major components of your storage system, from Inventory Cables to the powerful Netherite Storage Terminal. Now, it's time to face the ultimate challenge: the Storage Competition!"]
+			icon: "minecraft:emerald_block"
+			id: "4F5F75764D521C3E"
+			rewards: [{
+				id: "27F130E06D11A6B3"
+				item: "memory_of_the_past:codex_of_ascension"
+				type: "item"
+			}]
+			subtitle: "Complete all required quests in the Storage Mastery chapter"
+			tasks: [{
+				id: "0884EB05C4B83B2E"
+				title: "Competition"
+				type: "checkmark"
+			}]
+			title: "The Ultimate Storage Competition"
+			x: 2.0d
+			y: -11.5d
+		}
+	]
+	title: "Storage"
+}
