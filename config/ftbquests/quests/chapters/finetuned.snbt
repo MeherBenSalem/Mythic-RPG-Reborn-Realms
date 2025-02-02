@@ -1,0 +1,814 @@
+{
+	autofocus_id: "6E72E1B5F37DBCDD"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "finetuned"
+	group: "0619B9A70896C703"
+	icon: {
+		Count: 1
+		id: "fine_tuned_weaponry:blood_katana"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "01D6A59E85098D36"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"To craft the legendary weapons of the past and future, you must first create the foundation. "
+				"The &6Weapons Template&r is the key to unlocking the full potential of &6fine-tuned weaponry&r. Infused with Enchanted Steel and Arcane Essence this template serves as the &9blueprint&r for unparalleled craftsmanship. "
+				"Only the most skilled smiths can harness its true power"
+			]
+			id: "6E72E1B5F37DBCDD"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "30DAFA337B40C61B"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft a Weapons Template"
+			tasks: [{
+				id: "4D3C69D40B5C408E"
+				item: "fine_tuned_weaponry:weapontemplate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E72E1B5F37DBCDD"]
+			description: [
+				"&fEvery master smith begins with the basics. To craft the legendary weapons of fine-tuned weaponry&r"
+				"you must first forge the tools to shape them. The &9Hammer&r is the key to refining raw materials  "
+				"&fand creating powerful weapons"
+				"  "
+			]
+			id: "14169B3D3167CD5D"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "0983AD58A36D9CA3"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "054AC30AD60D5914"
+					item: "mob_loot_bags:uncommonlootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Hammer"
+			tasks: [{
+				id: "42039B6A05128257"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:classichammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E72E1B5F37DBCDD"]
+			description: [
+				"&rDeep within the land lies a metal infused with raw power. By refining these minerals,  "
+				"you can create the &2Earthly Ingot&r, a key component in crafting weapons of stability and strength.&r  "
+				"  "
+			]
+			id: "76A1B7EA816E397D"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "1B9E7E0C01031AFF"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "7B23875F86C0FC75"
+					item: "mob_loot_bags:uncommonlootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Earthly Ingot"
+			tasks: [{
+				count: 6L
+				id: "3FBBDA0AE269EA85"
+				item: "fine_tuned_weaponry:earthly_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6E72E1B5F37DBCDD"]
+			description: [
+				"&rObsidian is known for its toughness, but only true smiths can refine it into something even stronger.  "
+				"Through intense heat and magical reinforcement, you can create the &5Forged Obsidian Ingot&r,  "
+				"a core material for legendary weapons.&r  "
+			]
+			id: "5F466D0EC2E30A7F"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "58C15434162E1364"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "70608D2053632097"
+					item: "mob_loot_bags:uncommonlootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft x6 Forged Obsidian Ingot"
+			tasks: [{
+				count: 4L
+				id: "709A49186EA7D06E"
+				item: "fine_tuned_weaponry:obsidian_forged_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E72E1B5F37DBCDD"]
+			description: [
+				"&rA metal of beauty and resilience, &dRose Gold&r combines the strength of gold with the durability of copper."
+				""
+				"Only the finest smiths can refine this precious alloy, crafting weapons with both power and grace.&r"
+			]
+			id: "10D5A11C46774734"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "1AFA3DA97C1230E7"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "06DC9DB0BCDE13A1"
+					item: "mob_loot_bags:uncommonlootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft x6 Rose Gold Ingot"
+			tasks: [{
+				count: 6L
+				id: "338975ECC87E6CBA"
+				item: "fine_tuned_weaponry:rose_gold_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["14169B3D3167CD5D"]
+			description: [
+				"&rForged from the earth’s own strength, the &2Earthly Hammer&r is a powerful tool for crafting durable,  "
+				"nature-infused weaponry. Only the mightiest smiths can wield its power and craft weapons of true endurance.&r  "
+			]
+			id: "7C26A59D45376EF5"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "506413E667EF8CBE"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "3E88A71F4DD6948A"
+					item: "mob_loot_bags:rarelootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Earthly Hammer"
+			tasks: [{
+				id: "38BAAD8643E68412"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:earthlyhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["14169B3D3167CD5D"]
+			description: [
+				"&rThe &5Obsidian Hammer&r is a tool forged in the heart of volcanoes, made to endure even the most intense heat.  "
+				"Its power lies in its ability to craft weapons that can stand against the toughest enemies. Are you ready to wield it?&r  "
+			]
+			id: "6DC024D838CA8E7F"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "3E60C8B9C632D262"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "795C20203BF3953C"
+					item: "mob_loot_bags:rarelootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Obsidian Hammer"
+			tasks: [{
+				id: "27FABD984D996407"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:obsidianhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["14169B3D3167CD5D"]
+			description: [
+				"&rA masterwork tool, both elegant and powerful. The &dRose Gold Hammer&r is the key to crafting  "
+				"refined weaponry, blending precision with resilience. Only skilled smiths can wield its true potential.&r "
+			]
+			id: "49D73A20D4AEFE37"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "5EE9F1E7AC2A57D6"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "5D260D1949D64F51"
+					item: "mob_loot_bags:rarelootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Rose Gold Hammer"
+			tasks: [{
+				id: "7505A50450CFC199"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:rosegoldhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76A1B7EA816E397D"]
+			description: [
+				"&rThe &6Classic Katana&r is a weapon of elegance and precision, crafted by the finest swordsmiths of old.  "
+				"Its sharp edge can cut through anything, and its sleek design is a testament to centuries of tradition.  "
+				"To craft this legendary blade, you must master the art of the katana. Will you rise to the challenge?&r  "
+			]
+			id: "7AB7BD43FC1EBB4A"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "79948CB80756864E"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "26DA331A0D3EB5DF"
+					item: "mob_loot_bags:rarelootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Classic Katana"
+			tasks: [{
+				id: "44D5CA7BD3977602"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:classic_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["76A1B7EA816E397D"]
+			description: [
+				"&rForged from the bones of ancient warriors, the &6Bone Sword&r is a weapon of unparalleled strength.  "
+				"It is said to carry the spirits of those long past, granting its wielder great power"
+			]
+			id: "66C348089A7AD60C"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "4536410FEE0DF3E8"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "09FCF6D0961F64A5"
+					item: "mob_loot_bags:rarelootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Bone Sword"
+			tasks: [{
+				id: "59FDEBFA6EF72406"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:bone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7AB7BD43FC1EBB4A"]
+			description: ["&rThe &6Inosuke Katana&r, crafted by the legendary beast slayer himself, is a sword of brute strength and relentless power. Forged for those who fight with the fury of a beast, this katana is a symbol of wild might and courage. Can you harness its power and become a true warrior?&r  "]
+			id: "0C3DF8119009687A"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "1576E0AFAAFF403A"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "2982A92D15BEAA8C"
+					item: "mob_loot_bags:rarelootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft Inosuke's Katana"
+			tasks: [{
+				id: "37333CD3379C59B8"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:inosukessword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"7AB7BD43FC1EBB4A"
+				"10D5A11C46774734"
+			]
+			description: ["&rThe &4Blood Katana&r is a weapon forged in the darkest of arts. Imbued with the power of blood magic, it is said to thirst for the blood of its enemies. Only those who dare to embrace the forbidden can craft this fearsome blade. Will you wield its cursed power?&r  "]
+			id: "5EB830F2C8DEA6F1"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "23CD79966237B9D1"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "6A6F3BE8169DF14F"
+					item: "mob_loot_bags:rarelootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Blood Katana"
+			tasks: [{
+				id: "28E337A5B21CB637"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:blood_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5F466D0EC2E30A7F"]
+			description: [
+				"&rThe legendary sword wielded by the master of lightning, &6Zenitsu’s Sword&r, is known for its incredible speed  "
+				"and lightning-fast strikes. To craft it, you must first harness the power of the storm itself. &4Do you have the courage?&r &r "
+			]
+			id: "5886CA1DABCB1C3C"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "5180549592C32B5B"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "18018A7CAC7921D7"
+					item: "mob_loot_bags:rarelootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft Zenitsu's Sword"
+			tasks: [{
+				id: "594385CBB5812EE7"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:zenitsus_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F466D0EC2E30A7F"]
+			description: [
+				"&rForged in the heart of the deepest flames, the &4Helish Sword&r is a weapon of immense power and fiery wrath.  "
+				"It is said that only those who conquer the fiery depths can craft such a blade. Will you be the one to wield it?&r   "
+			]
+			id: "4723C30F729FEAB1"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "6AC9F9AB286FE65F"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "1BAB0477CFB105DC"
+					item: "mob_loot_bags:rarelootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Helish Sword"
+			tasks: [{
+				id: "3CBA4545466618D4"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:helish_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F466D0EC2E30A7F"]
+			description: [
+				"&rCrafted from the bones of ancient immortals and infused with dark magic, the &6Immortal’s Scythe&r is a weapon  "
+				"of death and rebirth. Only those who dare to walk the line between life and death can craft this legendary weapon.&r  "
+			]
+			id: "1CEE60720AADADBB"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "29D144D658603E8F"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "1E5DEF25188113DD"
+					item: "mob_loot_bags:rarelootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Immortal’s Scythe"
+			tasks: [{
+				id: "7F1D15EC294160A3"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:immortal_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E72E1B5F37DBCDD"]
+			description: [
+				"&rThe &5Hollow Man Riyu Jug Staff&r is a staff that holds the power of forgotten souls.  "
+				"Crafted from the hollowed bones of the forsaken, this staff channels the will of the void itself.  "
+				"Only those who understand the balance of life and death can wield its power. Are you ready to craft it?&r  "
+			]
+			id: "2678F23842E77F68"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "2DDBED6AC0ECD592"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "438015A63745BEB9"
+					item: "mob_loot_bags:rarelootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft Hollow Man Riyu Jug Staff"
+			tasks: [{
+				id: "25F21B649F9FEC5D"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:hollow_man_ruyi_jingu_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E72E1B5F37DBCDD"]
+			description: [
+				"&rThe &9Lunar Bloomfang&r, crafted by the brilliant &dMoon&r, is the epitome of beauty and strength.  "
+				"It is said that no one in the world can create a weapon as powerful and graceful as hers. Only the worthy can wield this legendary fang, a true masterpiece of craftsmanship. Do you think you have what it takes?&r  "
+			]
+			id: "3F0FC9F8AF0530AB"
+			rewards: [
+				{
+					command: "/motp add xp 100 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "005F355DCA4341EB"
+					title: "+200 xp"
+					type: "command"
+				}
+				{
+					id: "2AEF6BB8CC4B9443"
+					item: "mob_loot_bags:rarelootbag"
+					type: "item"
+				}
+			]
+			subtitle: "Craft Moon's Lunar Bloomfang"
+			tasks: [{
+				id: "058199D417002DED"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:moons_lunar_bloomfang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&rYou have braved the lands, faced dangerous foes, and unlocked the secrets of the legendary weapons.  "
+				"Now, it’s time to collect them all and prove you are the true master smith!&r"
+			]
+			icon: "minecraft:emerald_block"
+			id: "07C6D8AC970F7DD7"
+			rewards: [
+				{
+					count: 2
+					id: "330BEB9F73A39CD7"
+					item: "memory_of_the_past:codex_of_ascension"
+					type: "item"
+				}
+				{
+					id: "720B403227B79B12"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:waraxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Complete all required quests in the Fine-Tuned Weapons chapter"
+			tasks: [
+				{
+					consume_items: false
+					id: "7CB192C8737D2133"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:zenitsus_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3E5B74664BE7E6BD"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:helish_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5912C52A597E2DEC"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:immortal_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "24264C9FF2800898"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:moons_lunar_bloomfang"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "38F180EB423C5A8F"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:hollow_man_ruyi_jingu_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "103E9258C74715F7"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:classic_katana"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "012AC4EF06BEDD9C"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:rosegoldhammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "03BA35D349DF6E98"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:inosukessword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1F633CCD65B52F3A"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:blood_katana"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1A14223D9248CF7E"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:earthlyhammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "75DCAC7E45F5D6E9"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:classichammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "71E9AC1B13118987"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:obsidianhammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "060A12740FBD9F10"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:bone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Ultimate Storage Competition"
+			x: -2.5d
+			y: -8.5d
+		}
+	]
+	title: "Fine-tuned Weapons"
+}

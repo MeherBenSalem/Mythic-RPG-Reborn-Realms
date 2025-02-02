@@ -475,6 +475,7 @@
 			icon: "minecraft:emerald_block"
 			id: "4F5F75764D521C3E"
 			rewards: [{
+				count: 2
 				id: "27F130E06D11A6B3"
 				item: "memory_of_the_past:codex_of_ascension"
 				type: "item"

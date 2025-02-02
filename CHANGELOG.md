@@ -1,3 +1,10 @@
+## [0.3.1]
+
+## Updated To Forge 47.3.25
+## Updated All the mods
+
+- Added Fine-Tunned Weaponry Chapter
+
 ## [0.3.0]
 
 ## Updated All the Mods
