@@ -119,3 +119,6 @@
 	#changes how to the attribute value displays when you hover (value * modifer)
 	display_modifer = 1.0
 
+["Global Settings"]
+	enable = true
+

@@ -7,6 +7,7 @@
 	base_value_per_point = 1.0
 	lock = false
 	init_val_attribute_one = 2.0
+	on_level_event = ["/effect give @p minecraft:instant_health 2 3"]
 
 ["Attribute 2"]
 	display_name = "Power : "
@@ -16,15 +17,17 @@
 	base_value_per_point = 1.0
 	lock = false
 	init_val_attribute_two = 1.0
+	on_level_event = [" "]
 
 ["Attribute 3"]
 	display_name = "Resilience : "
-	cmd_to_exc = ["/attribute @p minecraft:generic.armor base set [param(2.0)]", "/attribute @p attributeslib:dodge_chance base set [param(1)]", "/attribute @p irons_spellbooks:spell_resist base set [param(0.05)]"]
+	cmd_to_exc = ["/attribute @p minecraft:generic.armor base set [param(2.0)]", "/attribute @p attributeslib:dodge_chance base set [param(0.05)]", "/attribute @p irons_spellbooks:spell_resist base set [param(0.05)]"]
 	tip_to_display = "§7Reduces the effectiveness of enemy armor, increases your defense, and grants a chance to dodge attacks."
 	max_level = 100.0
 	base_value_per_point = 1.0
 	lock = false
 	init_val_attribute_three = 0.0
+	on_level_event = [" "]
 
 ["Attribute 4"]
 	display_name = "Ranged Mastery : "
@@ -34,6 +37,7 @@
 	base_value_per_point = 1.0
 	lock = false
 	init_val_attribute_forth = 10.0
+	on_level_event = [" "]
 
 ["Attribute 5"]
 	display_name = "Speed : "
@@ -43,6 +47,7 @@
 	base_value_per_point = 1.0
 	lock = false
 	init_val_attribute_fifth = 4.0
+	on_level_event = [" "]
 
 ["Attribute 6"]
 	display_name = "Arcane Power : "
@@ -52,6 +57,7 @@
 	base_value_per_point = 1.0
 	lock = false
 	init_val_attribute_sixth = 0.0
+	on_level_event = [" "]
 
 ["Attribute 7"]
 	display_name = "Mana Flow : "
@@ -61,6 +67,7 @@
 	base_value_per_point = 1.0
 	lock = false
 	init_val_attribute_seventh = 10.0
+	on_level_event = [" "]
 
 ["Attribute 8"]
 	display_name = "Casting Efficiency : "
@@ -70,6 +77,7 @@
 	base_value_per_point = 1.0
 	lock = false
 	init_val_attribute_eight = 0.0
+	on_level_event = [" "]
 
 ["Attribute 9"]
 	cmd_to_exc = ["/attribute @p attributeslib:mining_speed base set [param(0.05)]"]
@@ -79,6 +87,7 @@
 	"display_name " = ""
 	"tip_to_display " = ""
 	init_val_attribute_nine = 20.0
+	on_level_event = [" "]
 
 ["Attribute 10"]
 	cmd_to_exc = [""]
@@ -88,6 +97,7 @@
 	"display_name " = ""
 	"tip_to_display " = ""
 	init_val_attribute_ten = 0.0
+	on_level_event = [" "]
 
 ["General Settings"]
 	init_val_starting_level = 1.0

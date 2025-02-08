@@ -1,3 +1,10 @@
+## [0.3.2]
+
+## Updated To Forge 47.3.29
+## Updated All the mods
+
+- Dodge chance fixed from 1 per level -> 0.05
+
 ## [0.3.1]
 
 ## Updated To Forge 47.3.25
