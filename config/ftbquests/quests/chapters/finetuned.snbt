@@ -394,8 +394,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -8.5d
+			x: 1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -646,6 +646,8 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 2.0d
 			subtitle: "Complete all required quests in the Fine-Tuned Weapons chapter"
 			tasks: [
 				{
@@ -806,8 +808,8 @@
 				}
 			]
 			title: "The Ultimate Storage Competition"
-			x: -2.5d
-			y: -8.5d
+			x: -2.0d
+			y: -9.0d
 		}
 	]
 	title: "Fine-tuned Weapons"

@@ -1,3 +1,25 @@
+## [0.4.0]
+
+## Updated All the mods
+
+- Added Collections Chapter Group
+- Added Relics Chapter
+- Added Artifacts Chapter
+- Added Bounty Hunter Chapter Group
+- Added Novice Monster Hunter Chapter
+
+## Mods
+- Added PingHUD
+- Added Valkyrien Skies
+- Added Eureka! Ships! for Valkyrien Skies 
+- Added Kotlin for Forge
+- Added Ashenx16 Ressource Pack
+- Removed Better Ping Display
+- Removed Unique dark
+
+## Fixes
+- Fixed a bug with the tooltips rendering in the world
+
 ## [0.3.2]
 
 ## Updated To Forge 47.3.29

@@ -1,3 +1,7 @@
 {
-	chapter_groups: [{ id: "0619B9A70896C703", title: "Weapons" }]
+	chapter_groups: [
+		{ id: "0619B9A70896C703", title: "Weapons" }
+		{ id: "1F645E4DB8863B69", title: "Bountu Board" }
+		{ id: "483B5E960E5091B0", title: "Collection" }
+	]
 }

@@ -118,7 +118,7 @@
 	#Item nametags
 	["Loot Beams".Nametags]
 		#If vanilla tooltips should be rendered on items in world.
-		advanced_tooltips = true
+		advanced_tooltips = false
 		#If tooltips should be rendered in world.
 		worldspace_tooltips = true
 		#Render nametags as bordered. Set to false for flat nametag with background.

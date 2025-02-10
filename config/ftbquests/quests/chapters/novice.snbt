@@ -1,0 +1,482 @@
+{
+	autofocus_id: "015913911428331E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "novice"
+	group: "1F645E4DB8863B69"
+	icon: "minecraft:zombie_spawn_egg"
+	id: "19833B292E0F4130"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7114CB1BE6552641"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "6132E2AB1ABA1BA5"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 50 Zombies"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "2A89D44BC71EB514"
+				title: "Zombie"
+				type: "kill"
+				value: 50L
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7114CB1BE6552641"]
+			id: "6502FC1A5DD51D34"
+			rewards: [{
+				command: "/motp add xp 200 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "7C51E34BF98EF307"
+				title: "+200 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 100 Zombies"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "0A29DEE76EC379C6"
+				title: "Zombie"
+				type: "kill"
+				value: 100L
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6502FC1A5DD51D34"]
+			id: "4A9D91035877F0F1"
+			rewards: [{
+				command: "/motp add xp 1000 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "4B4209DF27281F33"
+				title: "+1000 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 50 Zombies"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "6EF287ADB1AFE6F9"
+				title: "Zombie"
+				type: "kill"
+				value: 250L
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4A9D91035877F0F1"]
+			id: "7452736BAD6BB1A5"
+			rewards: [{
+				id: "1B9030A6C7987013"
+				item: "memory_of_the_past:codex_of_ascension"
+				type: "item"
+			}]
+			subtitle: "Kill 1000 Zombies"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "02BB56AE1B1DA008"
+				title: "Zombie"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			id: "382DA9A84F7C6E0F"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "5D72C33320C5DA12"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 50 Skeleton"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king_corpse"
+				icon: "minecraft:skeleton_skull"
+				id: "6CC7E50EC8D3A658"
+				title: "Skeleton"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["382DA9A84F7C6E0F"]
+			id: "19230D78F522FBF5"
+			rewards: [{
+				command: "/motp add xp 200 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "3E198741477CE34B"
+				title: "+200 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 100 Skeleton"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king_corpse"
+				icon: "minecraft:skeleton_skull"
+				id: "570770975CC15DB1"
+				title: "Skeleton"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["19230D78F522FBF5"]
+			id: "6518D8D8D73989A3"
+			rewards: [{
+				command: "/motp add xp 1000 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "70F7A5A84EA39B61"
+				title: "+1000 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 250 Skeleton"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king_corpse"
+				icon: "minecraft:skeleton_skull"
+				id: "3AB77AF0C86BCF9C"
+				title: "Skeleton"
+				type: "kill"
+				value: 250L
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6518D8D8D73989A3"]
+			id: "62D05590352932F9"
+			rewards: [{
+				id: "4A34FB64E707BE68"
+				item: "memory_of_the_past:codex_of_ascension"
+				type: "item"
+			}]
+			subtitle: "Kill 1000 Skeleton"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king_corpse"
+				icon: "minecraft:skeleton_skull"
+				id: "53C80C32F0A98646"
+				title: "Skeleton"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			id: "3EC96B61A44789BD"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "411D7900F9E2357C"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 50 Creeper"
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "2F0F3B367BD04EC2"
+				title: "Creeper"
+				type: "kill"
+				value: 50L
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EC96B61A44789BD"]
+			id: "4A32C0C30FE68811"
+			rewards: [{
+				command: "/motp add xp 200 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "353835E1998D3350"
+				title: "+200 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 100 Creeper"
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "3F6765D5178E7320"
+				title: "Creeper"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A32C0C30FE68811"]
+			id: "7279DC76E151FCBB"
+			rewards: [{
+				command: "/motp add xp 1000 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "557CAE2A45EDCD4B"
+				title: "+1000 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 250 Creeper"
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "165FF69B5C7A35E9"
+				title: "Creeper"
+				type: "kill"
+				value: 250L
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7279DC76E151FCBB"]
+			id: "13657DBE5A1C06D2"
+			rewards: [{
+				id: "6E46EFEBFBFE6B15"
+				item: "memory_of_the_past:codex_of_ascension"
+				type: "item"
+			}]
+			subtitle: "Kill 1000 Creeper"
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "2E3EEFE11A7BEB6E"
+				title: "Creeper"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			id: "71A3FB5B5E873A93"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "444588A6EFAE1BE5"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 50 Pillager"
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: "handcrafted:pillager_trophy"
+				id: "12CC4092B9D87436"
+				title: "Pillager"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71A3FB5B5E873A93"]
+			id: "558276DA50D22177"
+			rewards: [{
+				command: "/motp add xp 200 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "326BB5DEAD542D4A"
+				title: "+200 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 100 Pillager"
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: "handcrafted:pillager_trophy"
+				id: "623584F1A3E8053C"
+				title: "Pillager"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["558276DA50D22177"]
+			id: "6CD4E99E4B50F195"
+			rewards: [{
+				command: "/motp add xp 1000 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "7B8B1F49490D371E"
+				title: "+1000 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 250 Pillager"
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: "handcrafted:pillager_trophy"
+				id: "3821963EED985F25"
+				title: "Pillager"
+				type: "kill"
+				value: 250L
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6CD4E99E4B50F195"]
+			id: "56B747A926C1E356"
+			rewards: [{
+				id: "5D2AD31595898E5A"
+				item: "memory_of_the_past:codex_of_ascension"
+				type: "item"
+			}]
+			subtitle: "Kill 1000 Pillager"
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: "handcrafted:pillager_trophy"
+				id: "083135C671868B30"
+				title: "Pillager"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"62D05590352932F9"
+				"13657DBE5A1C06D2"
+				"7452736BAD6BB1A5"
+				"56B747A926C1E356"
+				"7A999AF35C8A7EE2"
+			]
+			description: [""]
+			icon: "minecraft:emerald_block"
+			id: "015913911428331E"
+			rewards: [{
+				count: 2
+				id: "1D1330985497CF4E"
+				item: "memory_of_the_past:codex_of_ascension"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Complete all required quests in the Novice Bounty Hunter chapter"
+			tasks: [{
+				id: "6306765D047C0E66"
+				type: "checkmark"
+			}]
+			title: "The Ultimate Storage Competition"
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			id: "68FA50EB2B15A6A8"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "299F8B5082E2405C"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 50 Witch"
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: "spartanweaponry:witch_head"
+				id: "377F09816E1E3D1E"
+				title: "Witch"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68FA50EB2B15A6A8"]
+			id: "1DAAD7D9EDC61DEC"
+			rewards: [{
+				command: "/motp add xp 200 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "1B2709B7F9E1AB96"
+				title: "+200 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 100 Witch"
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: "spartanweaponry:witch_head"
+				id: "4AC3C18234A7CC2B"
+				title: "Witch"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1DAAD7D9EDC61DEC"]
+			id: "060F365FE31D55F8"
+			rewards: [{
+				command: "/motp add xp 1000 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "376F7951A58E2212"
+				title: "+1000 xp"
+				type: "command"
+			}]
+			subtitle: "Kill 250 Witch"
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: "spartanweaponry:witch_head"
+				id: "5E8F19BB78AE2068"
+				title: "Witch"
+				type: "kill"
+				value: 250L
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["060F365FE31D55F8"]
+			id: "7A999AF35C8A7EE2"
+			rewards: [{
+				id: "3CACB29BC2A2A736"
+				item: "memory_of_the_past:codex_of_ascension"
+				type: "item"
+			}]
+			subtitle: "Kill 1000 Witch"
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: "spartanweaponry:witch_head"
+				id: "61A5E027D8D16AA5"
+				title: "Witch"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+	]
+	title: "Novice"
+}

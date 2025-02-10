@@ -28,6 +28,7 @@
 				item: "minecraft:cooked_beef"
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
 				id: "2EB61138A047A8D0"
 				title: "Work In Progress"
@@ -113,7 +114,7 @@
 				title: "+300 xp"
 				type: "command"
 			}]
-			subtitle: "access the menu with \"O\""
+			subtitle: "access the menu with \"M\""
 			tasks: [{
 				id: "312DEB178A8496FD"
 				title: "Leveling"

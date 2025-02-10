@@ -1,0 +1,1155 @@
+{
+	autofocus_id: "60BA521DA72B1663"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics_2"
+	group: "483B5E960E5091B0"
+	icon: {
+		Count: 1
+		id: "relics:space_dissector"
+		tag: {
+			abilities: {
+				dissection: {
+					points: 0
+					stats: {
+						distance: 28.89985d
+						time: 7.46127d
+					}
+				}
+			}
+		}
+	}
+	id: "1A0E1713BBEA413D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2FD6576D4E617F4D"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "288CF6A7BBB5C600"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "1B005DD7D0F853A6"
+				item: {
+					Count: 1
+					id: "relics:amphibian_boot"
+					tag: {
+						abilities: {
+							gills: {
+								points: 0
+								stats: {
+									chance: 0.06138d
+								}
+							}
+							slipping: {
+								points: 0
+								stats: {
+									duration: 17.84521d
+									speed: 0.0072d
+								}
+							}
+							swimming: {
+								points: 0
+								stats: {
+									duration: 22.94584d
+									speed: 0.00576d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "41B3713FDA9A6BF1"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "6553130F601D5AEE"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "557CE08E0620AECE"
+				item: {
+					Count: 1
+					id: "relics:aqua_walker"
+					tag: {
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 35.65017d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "107E95A30B7FE443"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "0CCF400FDABBB74D"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "10CAD02E4E15FC59"
+				item: {
+					Count: 1
+					id: "relics:arrow_quiver"
+					tag: {
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							leap: {
+								points: 0
+								stats: {
+									cooldown: 12.83947d
+									duration: 4.12025d
+									multiplier: 0.13442d
+								}
+							}
+							rain: {
+								points: 0
+								stats: {
+									delay: 0.75976d
+									duration: 10.62378d
+									radius: 3.72984d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 3.18766d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "2D6EA5C1EDD0B9BD"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "2BF4247D97357034"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "78ABB06CD7ADF909"
+				item: {
+					Count: 1
+					id: "relics:blazing_flask"
+					tag: {
+						abilities: {
+							bonfire: {
+								points: 0
+								stats: {
+									height: 4.2981d
+									speed: 0.01321d
+									step: 1.30165d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			id: "14F4C1D53468A771"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "367BBA2013A058A8"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "66A1E823E28391BC"
+				item: {
+					Count: 1
+					id: "relics:chorus_inhibitor"
+					tag: {
+						abilities: {
+							blink: {
+								points: 0
+								stats: {
+									cooldown: 7.4462d
+									distance: 27.12842d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "42A9D492FE958E75"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "12A2F4A5C17B9038"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "34367777E2EBC57B"
+				item: {
+					Count: 1
+					id: "relics:spore_sack"
+					tag: {
+						abilities: {
+							buffer: {
+								points: 0
+								stats: {
+									capacity: 3.83507d
+									chance: 0.0532d
+								}
+							}
+							explosion: {
+								points: 0
+								stats: {
+									size: 0.10959d
+								}
+							}
+							multiplying: {
+								points: 0
+								stats: {
+									amount: 0.14734d
+									chance: 0.0878d
+									size: 0.09454d
+								}
+							}
+							spore: {
+								points: 0
+								stats: {
+									cooldown: 11.69596d
+									damage: 0.36282d
+									duration: 2.00638d
+									size: 0.38079d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "1C476E4999CB5FFC"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "6E922E70E1BED0DD"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "18B33D264803844E"
+				item: {
+					Count: 1
+					id: "relics:wool_mitten"
+					tag: {
+						abilities: {
+							mold: {
+								points: 0
+								stats: {
+									damage: 0.06856d
+									freeze: 1.38912d
+									size: 19.69312d
+									stun: 0.03384d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "57A690CAEE9E4B8C"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "012E03878B5A1B46"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "18551A7B162D82EA"
+				item: {
+					Count: 1
+					id: "relics:enders_hand"
+					tag: {
+						abilities: {
+							swap: {
+								points: 0
+								stats: {
+									distance: 29.01977d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "555BFEE4061A27B3"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "795B23A53B53E9ED"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "757C9E0EAED9AA86"
+				item: {
+					Count: 1
+					id: "relics:elytra_booster"
+					tag: {
+						abilities: {
+							boost: {
+								points: 0
+								stats: {
+									capacity: 90.23516d
+									speed: 1.25828d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			id: "7CC3FA6D8575B342"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "01DC4CFBAEF549C7"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "1EEC20BBC04F7559"
+				item: {
+					Count: 1
+					id: "relics:drowned_belt"
+					tag: {
+						abilities: {
+							anchor: {
+								points: 0
+								stats: {
+									sinking: 3.82652d
+									slowness: 0.47969d
+								}
+							}
+							pressure: {
+								points: 0
+								stats: {
+									damage: 1.76261d
+								}
+							}
+							riptide: {
+								points: 0
+								stats: {
+									cooldown: 9.5303d
+								}
+							}
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.83613d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "3290EF1086394F22"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "08C0EB3860402386"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "436F6B6CA5B54688"
+				item: {
+					Count: 1
+					id: "relics:infinity_ham"
+					tag: {
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.38419d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 1.87511d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			id: "76D644E01F72567E"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "0C1A49494272BB29"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "44D52E90F3EA185A"
+				item: {
+					Count: 1
+					id: "relics:jellyfish_necklace"
+					tag: {
+						abilities: {
+							paralysis: {
+								points: 0
+								stats: {
+									duration: 1.10096d
+								}
+							}
+							shock: {
+								points: 0
+								stats: {
+									damage: 1.20952d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "6B3CF079B8E7DC9C"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "63403B438DD4ECB5"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "05A9ACC649854CA2"
+				item: {
+					Count: 1
+					id: "relics:leather_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.40091d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "08D38A148DD19258"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "03FFC1A680A94304"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "6D1A78AD0D55C660"
+				item: {
+					Count: 1
+					id: "relics:magic_mirror"
+					tag: {
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 79.53152d
+									distance: 606.87909d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			id: "7BFC1B1F83CEC467"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "0F314E6B453E2925"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "6CA91B7F3A2CECE0"
+				item: {
+					Count: 1
+					id: "relics:bastion_ring"
+					tag: {
+						abilities: {
+							trade: {
+								points: 0
+								stats: {
+									rolls: 0.83801d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "21C1C2A190C68685"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "0D8DBF4FB1E6438E"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "24139397C3DBD453"
+				item: {
+					Count: 1
+					id: "relics:ice_skates"
+					tag: {
+						abilities: {
+							ram: {
+								points: 0
+								stats: {
+									damage: 0.11126d
+								}
+							}
+							skating: {
+								points: 0
+								stats: {
+									duration: 33.63575d
+									speed: 0.01871d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			id: "5E2EA0C7B412B195"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "7F833644FBD1FC13"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "4143D14D40F86247"
+				item: {
+					Count: 1
+					id: "relics:ice_breaker"
+					tag: {
+						abilities: {
+							impact: {
+								points: 0
+								stats: {
+									damage: 2.80688d
+									size: 2.99894d
+								}
+							}
+							sustainability: {
+								points: 0
+								stats: {
+									modifier: 0.56514d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "419C6BF727A95D11"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "6C837F69A03844DE"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "66D3BBCAD0D05475"
+				item: {
+					Count: 1
+					id: "relics:horse_flute"
+					tag: {
+						abilities: {
+							heal: {
+								points: 0
+								stats: {
+									amount: 0.02914d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			id: "167F11C55A652FC1"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "6DD842926F20DA92"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "0B9380BAC3DAF46C"
+				item: {
+					Count: 1
+					id: "relics:hunter_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.3508d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.67929d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			id: "346A27ED3666BCFE"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "4008635021AE53D9"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "3856FD78C75EE678"
+				item: {
+					Count: 1
+					id: "relics:holy_locket"
+					tag: {
+						abilities: {
+							belief: {
+								points: 0
+								stats: {
+									amount: 0.2395d
+									capacity: 8.96848d
+									count: 1.62786d
+									radius: 5.10849d
+								}
+							}
+							blessing: {
+								points: 0
+								stats: {
+									consumption: 7.40512d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+							repentance: {
+								points: 0
+								stats: {
+									damage: 0.15354d
+									radius: 5.89893d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			id: "47131B3C4657969E"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "2904AFC604EA2405"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "044D3BD30DDD5E15"
+				item: {
+					Count: 1
+					id: "relics:roller_skates"
+					tag: {
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 18.77554d
+									speed: 0.00462d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "38CA790BEA0A1F36"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "62F1D468990A11FF"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "08FE2230E74C1A80"
+				item: {
+					Count: 1
+					id: "relics:shadow_glaive"
+					tag: {
+						abilities: {
+							glaive: {
+								points: 0
+								stats: {
+									bounces: 3.84557d
+									damage: 2.71244d
+									radius: 4.08828d
+									recharge: 20.09256d
+								}
+							}
+							saw: {
+								points: 0
+								stats: {
+									damage: 0.83663d
+									speed: 17.31135d
+								}
+							}
+						}
+						charges: 8
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "1080E56C4BD32494"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "477C4414AC77C9AC"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "2CCE91ED709C6FD0"
+				item: {
+					Count: 1
+					id: "relics:space_dissector"
+					tag: {
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 28.89985d
+									time: 7.46127d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			id: "3981D83DE6ACC127"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "0987231DF8CCFA62"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "6C93282E1244DE9D"
+				item: {
+					Count: 1
+					id: "relics:spatial_sign"
+					tag: {
+						abilities: {
+							seal: {
+								points: 0
+								stats: {
+									time: 3.78987d
+								}
+							}
+						}
+						pos: "[\"225.4,70.0,-623.6\"]"
+						world: "minecraft:overworld"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "614336B5536E015F"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "1107A5F0414E2ED6"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "55565731E1099766"
+				item: {
+					Count: 1
+					id: "relics:reflection_necklace"
+					tag: {
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 58.73981d
+									damage: 0.26523d
+									stun: 0.09667d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "076AC22D2E3502FA"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "31F7792D2AB19F51"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "2FEC916EE77B606A"
+				item: {
+					Count: 1
+					id: "relics:rage_glove"
+					tag: {
+						abilities: {
+							phlebotomy: {
+								points: 0
+								stats: {
+									attack_speed: 0.00877d
+									heal: 1.6E-4d
+									movement_speed: 0.01858d
+								}
+							}
+							rage: {
+								points: 0
+								stats: {
+									dealt_damage: 0.06158d
+									duration: 3.4265d
+									incoming_damage: 0.04696d
+								}
+							}
+							spurt: {
+								points: 0
+								stats: {
+									cooldown: 19.8998d
+									damage: 0.14462d
+									distance: 6.62985d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "6DBD0B9CCC96CC9F"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "1E7CC126E9D197E1"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "0418B963EE7B43E8"
+				item: {
+					Count: 1
+					id: "relics:midnight_robe"
+					tag: {
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.61667d
+									distance: 19.41414d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.74608d
+									speed: 0.31866d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "3D282EFB43EA4492"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "46D44631BBB755D0"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Relic"
+			tasks: [{
+				id: "73787FDC452A0827"
+				item: {
+					Count: 1
+					id: "relics:magma_walker"
+					tag: {
+						abilities: {
+							pace: {
+								points: 0
+								stats: {
+									time: 31.96182d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2D6EA5C1EDD0B9BD"
+				"614336B5536E015F"
+				"076AC22D2E3502FA"
+				"7BFC1B1F83CEC467"
+				"08D38A148DD19258"
+				"419C6BF727A95D11"
+				"555BFEE4061A27B3"
+				"2FD6576D4E617F4D"
+				"7CC3FA6D8575B342"
+				"42A9D492FE958E75"
+				"3290EF1086394F22"
+				"167F11C55A652FC1"
+				"346A27ED3666BCFE"
+				"107E95A30B7FE443"
+				"21C1C2A190C68685"
+				"47131B3C4657969E"
+				"41B3713FDA9A6BF1"
+				"6DBD0B9CCC96CC9F"
+				"1080E56C4BD32494"
+				"3D282EFB43EA4492"
+				"5E2EA0C7B412B195"
+				"3981D83DE6ACC127"
+				"14F4C1D53468A771"
+				"1C476E4999CB5FFC"
+				"76D644E01F72567E"
+				"38CA790BEA0A1F36"
+				"57A690CAEE9E4B8C"
+				"6B3CF079B8E7DC9C"
+				"093A59A7B2C7A62A"
+			]
+			description: [""]
+			icon: "minecraft:emerald_block"
+			id: "60BA521DA72B1663"
+			rewards: [{
+				count: 2
+				id: "3A960030D32350C3"
+				item: "memory_of_the_past:codex_of_ascension"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Complete all required quests in the Relics Chapter"
+			tasks: [{
+				id: "45F8EACABD68E266"
+				type: "checkmark"
+			}]
+			title: "The Ultimate Storage Competition"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "093A59A7B2C7A62A"
+			rewards: [{
+				command: "/motp add xp 150 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "66B7174DA77E5DE1"
+				title: "+150 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain x16 Relic XP Bottle"
+			tasks: [{
+				count: 16L
+				id: "3A83CA70166C271B"
+				item: "relics:relic_experience_bottle"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+	]
+	title: "Relics"
+}

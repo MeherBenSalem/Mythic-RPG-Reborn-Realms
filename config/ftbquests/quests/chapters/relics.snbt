@@ -1,0 +1,974 @@
+{
+	autofocus_id: "759D1DF50B709F25"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics"
+	group: "483B5E960E5091B0"
+	icon: "artifacts:eternal_steak"
+	id: "47BC5D36ACBA6D6B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"759BB88CBD046013"
+				"7B6084483D481A61"
+				"6F6BB72CB589C64F"
+				"31B618EAC9716368"
+				"66CD3BE15B12FDF8"
+				"37AA9950953B6146"
+				"4658E12986BB28C2"
+				"2738FFE8FE0F1854"
+				"064A6D93F7469354"
+				"100574D7D4FF9FA0"
+				"30F0A17A1ED4C80F"
+				"0F169615E9BA15AB"
+				"551E8D8ADAC6D000"
+				"042980DF6F5EF03B"
+				"54574CC7DEF67570"
+				"7EDD578FB8A35929"
+				"69C90537C9EAE54C"
+				"00C16D65747EC9C0"
+				"15F5C4D6C9C2E1BA"
+				"544371A57E75D0CF"
+				"55394DF893F2522C"
+				"30BBADDCE687E900"
+				"48387D0BBB942887"
+				"4DAA1F4C99F2C035"
+				"5313CA730C1EAF9F"
+				"1481C24067056C66"
+				"67585AB8418E0C4D"
+				"446E3FE3B39B41F2"
+				"506BB1AD296B8808"
+				"72929BB54E3078B1"
+				"5F8B9F46D5D8E472"
+				"2C32A14F74CCAE5B"
+				"10465ECF7E00EBE3"
+				"4FF22BBE08BAB45D"
+				"22A8579469493A99"
+				"29D71F59DB339590"
+				"1094337F447795EE"
+				"4DDB66736265BC7F"
+				"1F2F02EE72375884"
+				"78D96DD5221422AE"
+				"51D4ED2D4E3A11FB"
+				"2D27FDC54BF0B929"
+				"0530A631EFEC7413"
+			]
+			description: [""]
+			icon: "minecraft:emerald_block"
+			id: "759D1DF50B709F25"
+			rewards: [{
+				count: 2
+				id: "55D938BB39F19FE2"
+				item: "memory_of_the_past:codex_of_ascension"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Complete all required quests in the Artifacts Chapter"
+			tasks: [{
+				id: "4BBEE8FCD0FFBDC1"
+				type: "checkmark"
+			}]
+			title: "The Ultimate Storage Competition"
+			x: -12.5d
+			y: 3.5d
+		}
+		{
+			id: "72929BB54E3078B1"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "51B25DA29763FB49"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "343C4F7556646E8E"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 10.5d
+		}
+		{
+			id: "5F8B9F46D5D8E472"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "6172A021336130C4"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "3A1FC80D98741D9C"
+				item: {
+					Count: 1
+					id: "artifacts:plastic_drinking_hat"
+					tag: {
+						abilities: {
+							drinking: {
+								points: 0
+								stats: {
+									speed: 0.34221d
+								}
+							}
+							nutrition: {
+								points: 0
+								stats: {
+									hunger: 2.68096d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			id: "6F6BB72CB589C64F"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "0953C155ADC3BDB5"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "565466C9BD605F41"
+				item: "artifacts:onion_ring"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 10.5d
+		}
+		{
+			id: "54574CC7DEF67570"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "6CF828C0084A8852"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "28120D4DBD3A7EB8"
+				item: {
+					Count: 1
+					id: "artifacts:scarf_of_invisibility"
+					tag: {
+						abilities: {
+							invisible: {
+								points: 0
+								stats: {
+									radius: 4.92776d
+									threshold: 0.07262d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			id: "48387D0BBB942887"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "11D49163DEB6551A"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "0A6DEDE2114BA214"
+				item: {
+					Count: 1
+					id: "artifacts:anglers_hat"
+					tag: {
+						abilities: {
+							catch: {
+								points: 0
+								stats: {
+									chance: 0.16211d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			id: "1481C24067056C66"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "175EF0B59CDEB664"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "321B27AA171C16D2"
+				item: "artifacts:cowboy_hat"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			id: "0F169615E9BA15AB"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "5A38D3620FAADED3"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "7595285D0F059A5C"
+				item: "artifacts:chorus_totem"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			id: "446E3FE3B39B41F2"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "2B67B0485450B7C3"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "13AF300E7471AA3F"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -1.5d
+		}
+		{
+			id: "2738FFE8FE0F1854"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "12489930EA77A3CD"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "5C877801ADF83752"
+				item: {
+					Count: 1
+					id: "artifacts:lucky_scarf"
+					tag: {
+						abilities: {
+							luck: {
+								points: 0
+								stats: {
+									chance: 0.12109d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.5d
+		}
+		{
+			id: "0530A631EFEC7413"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "3AB5484C22A287B5"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "522C908760774F59"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			id: "22A8579469493A99"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "5380590BAFCBE938"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "67F57604EE46440F"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			id: "4FF22BBE08BAB45D"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "6DB06E7330E5C45B"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "7C9679BD7BE75B23"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 0.5d
+		}
+		{
+			id: "100574D7D4FF9FA0"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "29E20F27F73DD086"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "3A273AC2B66AC289"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			id: "5313CA730C1EAF9F"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "2D955A2D121C2113"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "2F0F4B56B5C651AC"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			id: "551E8D8ADAC6D000"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "6ADA99B31581EE89"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "3BD824714FC032A4"
+				item: "artifacts:snowshoes"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			id: "064A6D93F7469354"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "7262A874C38F299E"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "0373B5BF485E4588"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			id: "4658E12986BB28C2"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "553152B4F580CD0F"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "67E21704433E52A3"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 8.5d
+		}
+		{
+			id: "506BB1AD296B8808"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "6D97B89A3897F12E"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "66EBD6FA89F52494"
+				item: "artifacts:rooted_boots"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 8.5d
+		}
+		{
+			id: "00C16D65747EC9C0"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "1C0D999A4B2C21C5"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "157DF33788F8FF92"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.5d
+		}
+		{
+			id: "7EDD578FB8A35929"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "31A458396E844032"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "6A901445886610E5"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			id: "31B618EAC9716368"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "5F3DA9B221343D10"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "1E90FBE2DAF3C31C"
+				item: {
+					Count: 1
+					id: "artifacts:villager_hat"
+					tag: {
+						abilities: {
+							discount: {
+								points: 0
+								stats: {
+									multiplier: 12.36222d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			id: "1094337F447795EE"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "46AE2015B88E9056"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "31F94F5A50BAC57D"
+				item: {
+					Count: 1
+					id: "artifacts:superstitious_hat"
+					tag: {
+						abilities: {
+							looting: {
+								points: 0
+								stats: {
+									chance: 0.17169d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 8.5d
+		}
+		{
+			id: "2D27FDC54BF0B929"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "29AEB1BFDEB32D15"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "7927DA0EAFA2A365"
+				item: {
+					Count: 1
+					id: "artifacts:snorkel"
+					tag: {
+						abilities: {
+							diving: {
+								points: 0
+								stats: {
+									duration: 6.26752d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			id: "4DDB66736265BC7F"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "3DD076E52CA26C11"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "6139A0D93C99360E"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			id: "69C90537C9EAE54C"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "035AD8AA5155EB40"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "4D46ED2B23A6510C"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.5d
+		}
+		{
+			id: "55394DF893F2522C"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "71C5CE44D8386DBD"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "4C9907E6035FEFB1"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			id: "042980DF6F5EF03B"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "375DE98CE1098F26"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "7E5E33EE76FD1B1D"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.5d
+		}
+		{
+			id: "7B6084483D481A61"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "7D2CE55019A2EE77"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "4A0D16F034119527"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 6.5d
+		}
+		{
+			id: "78D96DD5221422AE"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "2144C34F8FD92782"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "1930B806D123473F"
+				item: "artifacts:pickaxe_heater"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 4.5d
+		}
+		{
+			id: "544371A57E75D0CF"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "0DCDE9FED7FA4643"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "719ABB2960814FD5"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 10.5d
+		}
+		{
+			id: "15F5C4D6C9C2E1BA"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "503A5D1AA506AEE5"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "178771AFAED4E6E5"
+				item: {
+					Count: 1
+					id: "artifacts:novelty_drinking_hat"
+					tag: {
+						abilities: {
+							drinking: {
+								points: 0
+								stats: {
+									speed: 0.34714d
+								}
+							}
+							nutrition: {
+								points: 0
+								stats: {
+									hunger: 2.19232d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 10.5d
+		}
+		{
+			id: "67585AB8418E0C4D"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "14F75331C54D0B08"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "616EE754B4A42C1E"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 4.5d
+		}
+		{
+			id: "66CD3BE15B12FDF8"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "7A95DF61F445095D"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "60AEED9239041B42"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 6.5d
+		}
+		{
+			id: "10465ECF7E00EBE3"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "01CED95C2287F105"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "1EB254F0A4F5B6C1"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -3.5d
+		}
+		{
+			id: "1F2F02EE72375884"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "02FE3A0611A2589D"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "3F5F53C9E75B7340"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			id: "759BB88CBD046013"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "1FD1123BEED0297F"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "69524AF4BAF4BFA3"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.5d
+		}
+		{
+			id: "37AA9950953B6146"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "6CCD73894BEB73EC"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "78537E46E332DAB3"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			id: "2C32A14F74CCAE5B"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "685C8621ACCE324E"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "278AA2E454D979BC"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			id: "4DAA1F4C99F2C035"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "05EA4EB5B43AFCA5"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "3CA0B78B283947BF"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.5d
+		}
+		{
+			id: "29D71F59DB339590"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "3AFBAB0172A65522"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "535A295C74D7D494"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			id: "30BBADDCE687E900"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "30CEBD144B285D85"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "14AF542AF0A18AD7"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.5d
+		}
+		{
+			id: "30F0A17A1ED4C80F"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "3192F20077A9B53B"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "75126C26461ED957"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 2.5d
+		}
+		{
+			id: "51D4ED2D4E3A11FB"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "1DAF3EABAADD1ECF"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Obtain This Artifact"
+			tasks: [{
+				id: "301B3564E751B382"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+	]
+	title: "Artifacts"
+}
