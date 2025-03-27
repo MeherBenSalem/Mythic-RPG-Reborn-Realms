@@ -1,7 +1,7 @@
 
 ["Attribute 1"]
 	display_name = "Vitality : "
-	cmd_to_exc = ["/attribute @p minecraft:generic.max_health base set [param(10.0)]", "effect give @p minecraft:instant_health 20 3"]
+	cmd_to_exc = ["/attribute @p minecraft:generic.max_health base set [param(10.0)]"]
 	tip_to_display = "§7Increases your maximum health and enhances the effectiveness of healing received."
 	max_level = 100.0
 	base_value_per_point = 1.0

@@ -233,7 +233,7 @@
 		"origins-plus-plus:devine-architect/energy" = true
 		"origins-plus-plus:devine-architect/float" = true
 		"origins-plus-plus:devine-architect/jealousy" = true
-		"origins-plus-plus:devine-architect/nether_traveler" = true
+		"origins-plus-plus:devine-architect/nether_traveler" = false
 		"origins-plus-plus:devine-architect/night_vision" = true
 		"origins-plus-plus:devine-architect/phase" = true
 		"origins-plus-plus:devine-architect/universal_blast" = true
@@ -313,7 +313,7 @@
 		"origins-plus-plus:blazian/fortress" = true
 		"origins-plus-plus:blazian/hot_hands" = true
 		"origins-plus-plus:blazian/lava_swim" = true
-		"origins-plus-plus:blazian/nether_ally" = true
+		"origins-plus-plus:blazian/nether_ally" = false
 		"origins-plus-plus:blazian/no_place_like_home" = true
 		"origins-plus-plus:blazian/overworld" = true
 		"origins-plus-plus:blazian/particles" = true
@@ -367,8 +367,8 @@
 		enabled = true
 		"origins:fire_immunity" = true
 		"origins-plus-plus:withered-skeletian/immune" = true
-		"origins-plus-plus:withered-skeletian/nether_inhabitant" = true
-		"origins-plus-plus:withered-skeletian/nether_kinship" = true
+		"origins-plus-plus:withered-skeletian/nether_inhabitant" = false
+		"origins-plus-plus:withered-skeletian/nether_kinship" = false
 		"origins-plus-plus:withered-skeletian/s_and_p/attacker" = true
 		"origins-plus-plus:withered-skeletian/s_and_p/death" = true
 		"origins-plus-plus:withered-skeletian/s_and_p/hit" = true
@@ -1627,9 +1627,9 @@
 		"origins-plus-plus:ghast/float" = true
 		"origins-plus-plus:ghast/hunger_over_time" = true
 		"origins-plus-plus:ghast/miserable" = true
-		"origins-plus-plus:ghast/nether_phasing" = true
+		"origins-plus-plus:ghast/nether_phasing" = false
 		"origins-plus-plus:ghast/not_warm_shaking" = true
-		"origins-plus-plus:ghast/red_nether_phasing" = true
+		"origins-plus-plus:ghast/red_nether_phasing" = false
 		"origins-plus-plus:ghast/tall" = true
 
 	[origins."origins-classes:archer"]

@@ -7,7 +7,7 @@
 
 ["Distance Scale Settings"]
 	#Recommended over 25 000
-	scale_distance = 55000.0
+	scale_distance = 100000.0
 	#The scale type can be 'vertical' , 'horizontal' , 'both', 'random' or 'MOTP'
 	scale_type = "both"
 	day_factor = 1.0
