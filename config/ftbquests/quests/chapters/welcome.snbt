@@ -103,7 +103,16 @@
 				"&fWith each level, your strength and skill will grow, paving the way for greater challenges and rewards&r"
 			]
 			hide_until_deps_complete: true
-			icon: "memory_of_the_past:great_drop_of_knowledge"
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:smite"
+						lvl: 10s
+					}]
+				}
+			}
 			id: "1E59B5198B53480E"
 			rewards: [{
 				command: "/motp add xp 300 @s"
@@ -114,7 +123,7 @@
 				title: "+300 xp"
 				type: "command"
 			}]
-			subtitle: "access the menu with \"M\""
+			subtitle: "Access the menu with \"M\""
 			tasks: [{
 				id: "312DEB178A8496FD"
 				title: "Leveling"

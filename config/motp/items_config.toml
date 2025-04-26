@@ -2,3 +2,7 @@
 ["Items Settings"]
 	Items_list = [""]
 
+[General]
+	enabled = false
+	show_tooltip = true
+

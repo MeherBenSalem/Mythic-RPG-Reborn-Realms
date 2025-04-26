@@ -187,6 +187,17 @@
         "value": 1024
       }
     },
+    "ascendant_mobs:am_got_level": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "quality_equipment:dig_speed": {
       "enabled": false,
       "min": {
@@ -933,6 +944,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "ascendant_mobs:amlevel_attribute": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 9999,
+        "value": 9999
       }
     }
   }

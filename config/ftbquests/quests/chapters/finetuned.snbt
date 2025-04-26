@@ -1,5 +1,5 @@
 {
-	autofocus_id: "6E72E1B5F37DBCDD"
+	autofocus_id: "0CD1CE20DA7E91FB"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "finetuned"
@@ -16,6 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0CD1CE20DA7E91FB"]
 			description: [
 				"To craft the legendary weapons of the past and future, you must first create the foundation. "
 				"The &6Weapons Template&r is the key to unlocking the full potential of &6fine-tuned weaponry&r. Infused with Enchanted Steel and Arcane Essence this template serves as the &9blueprint&r for unparalleled craftsmanship. "
@@ -36,7 +37,7 @@
 				item: "fine_tuned_weaponry:weapontemplate"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 3.0d
 			y: -4.0d
 		}
 		{
@@ -75,8 +76,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.5d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6E72E1B5F37DBCDD"]
@@ -108,8 +109,8 @@
 				item: "fine_tuned_weaponry:earthly_ingot"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -6.0d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6E72E1B5F37DBCDD"]
@@ -125,7 +126,7 @@
 					elevate_perms: true
 					icon: "memory_of_the_past:codex_of_ascension"
 					id: "58C15434162E1364"
-					title: "+200 xp"
+					title: "+100 xp"
 					type: "command"
 				}
 				{
@@ -141,8 +142,8 @@
 				item: "fine_tuned_weaponry:obsidian_forged_ingot"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6E72E1B5F37DBCDD"]
@@ -154,7 +155,7 @@
 			id: "10D5A11C46774734"
 			rewards: [
 				{
-					command: "/motp add xp 100 @s"
+					command: "/motp add xp 200 @s"
 					elevate_perms: true
 					icon: "memory_of_the_past:codex_of_ascension"
 					id: "1AFA3DA97C1230E7"
@@ -174,8 +175,8 @@
 				item: "fine_tuned_weaponry:rose_gold_ingot"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["14169B3D3167CD5D"]
@@ -211,8 +212,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: -4.5d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["14169B3D3167CD5D"]
@@ -248,8 +249,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -6.0d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["14169B3D3167CD5D"]
@@ -285,8 +286,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.0d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["76A1B7EA816E397D"]
@@ -323,7 +324,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -6.5d
 		}
 		{
@@ -360,8 +361,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -7.5d
+			x: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7AB7BD43FC1EBB4A"]
@@ -394,8 +395,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -8.0d
+			x: -1.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -431,8 +432,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.5d
+			x: 3.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["5F466D0EC2E30A7F"]
@@ -468,7 +469,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: 0.5d
 			y: -1.5d
 		}
 		{
@@ -505,7 +506,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: 1.5d
 			y: -0.5d
 		}
 		{
@@ -542,8 +543,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6E72E1B5F37DBCDD"]
@@ -580,8 +581,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6E72E1B5F37DBCDD"]
@@ -617,8 +618,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -806,10 +807,753 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1187923B926FB2E2"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:inferno_core"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "68801973CF464348"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:frost_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7B2A155B3EED6BB2"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:storm_shard"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
 			title: "The Ultimate Storage Competition"
-			x: -2.0d
-			y: -9.0d
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			description: ["The weapon forge is used to craft special weapon ingots"]
+			id: "0CD1CE20DA7E91FB"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "7C1F49CA7DD6D063"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Weapon Forge"
+			tasks: [{
+				id: "4CBFEA2C41948BE2"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:weapons_forge_un_active"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0058E8F488547EA7"]
+			description: ["The Research Table allows you to craft weapon augments"]
+			id: "22588A61F121821E"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "2A161B833B1F4FC2"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Research Table"
+			tasks: [{
+				id: "123119D780B9AE49"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:research_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0CD1CE20DA7E91FB"]
+			description: ["This Anvil allows you to add augments and runes to any weapon"]
+			id: "0058E8F488547EA7"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "493798CA261DCC29"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Fine-Tunned Anvil"
+			tasks: [{
+				id: "5983C5CBD8577FD6"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:weapons_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["22588A61F121821E"]
+			icon: {
+				Count: 1
+				id: "fine_tuned_weaponry:inferno_core"
+				tag: { }
+			}
+			id: "110391ECBB53E06F"
+			rewards: [
+				{
+					command: "/motp add xp 50 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "2FB67D8087194544"
+					title: "+50 xp"
+					type: "command"
+				}
+				{
+					id: "1BF6A5241F0F2C39"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:inferno_core"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Aquire x1 Inferno Core"
+			tasks: [{
+				id: "3461F5936573642E"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:inferno_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["22588A61F121821E"]
+			icon: {
+				Count: 1
+				id: "fine_tuned_weaponry:storm_shard"
+				tag: { }
+			}
+			id: "3C0F9BAA17CDB6C3"
+			rewards: [
+				{
+					command: "/motp add xp 50 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "194F4C60AAFD1CD6"
+					title: "+50 xp"
+					type: "command"
+				}
+				{
+					id: "4F71E87AB59DCD7D"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:storm_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Aquire x1 Storm Shard"
+			tasks: [{
+				id: "2F179B3354D6EBD8"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:storm_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["22588A61F121821E"]
+			icon: {
+				Count: 1
+				id: "fine_tuned_weaponry:frost_rune"
+				tag: { }
+			}
+			id: "2555061ADD16974E"
+			rewards: [
+				{
+					command: "/motp add xp 50 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "32216AB74EA26BA5"
+					title: "+50 xp"
+					type: "command"
+				}
+				{
+					id: "6933F82787EC52BE"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:frost_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Aquire x1 Frost Rune"
+			tasks: [{
+				id: "73EB70E7A2ADC45A"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:frost_rune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["110391ECBB53E06F"]
+			id: "7859420021F154AD"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "001BE3BF0917560E"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Blazing Amplifier"
+			tasks: [{
+				id: "5A91C90F6363AAA8"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:blazing_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["110391ECBB53E06F"]
+			id: "375DAC84E5903504"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "61A59D58C061ADA4"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Wildfire Amplifier"
+			tasks: [{
+				id: "1F2F3E49399D1A9A"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:wildfire_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["110391ECBB53E06F"]
+			id: "64850043A7FE23A1"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "1CCACB932CFB739B"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Hellfire Amplifier"
+			tasks: [{
+				id: "26469B50D643FAD9"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:hellfire_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["110391ECBB53E06F"]
+			id: "7E5A71554B01F1B5"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "6F9FC673EBB07AF4"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Smokescreen Amplifier"
+			tasks: [{
+				id: "3A8C708C73EC614D"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:smokescreen_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["110391ECBB53E06F"]
+			id: "6B9253A848E84886"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "7FA6067ACF8D25B2"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Lava Infusion Amplifier"
+			tasks: [{
+				id: "762A10401FEDA578"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:lava_infusion_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["110391ECBB53E06F"]
+			id: "4B37998AA3759C9C"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "1C9535EDD1166E2C"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Pyroclasm Amplifier"
+			tasks: [{
+				id: "4DE7F791B6C87C78"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:pyroclasm_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["110391ECBB53E06F"]
+			id: "73E5C1CD768C9C68"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "2D69C7799DB9153F"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Infernal Hunger Amplifier"
+			tasks: [{
+				id: "018C97282CD56FBA"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:infernal_hunger_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["110391ECBB53E06F"]
+			id: "156BABFEEEC2C325"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "7F17FBC006297BB1"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Smokescreen Amplifier"
+			tasks: [{
+				id: "2C454E3B1B1A4F65"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:smokescreen_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["110391ECBB53E06F"]
+			id: "232B85AF7C98FF4E"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "448F1EDB14EDA391"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Volcanic Burst Amplifier"
+			tasks: [{
+				id: "0885F102DB869E12"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:volcanic_burst_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2555061ADD16974E"]
+			id: "11E51ACC9B4F858D"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "3EF6DA4BFE710218"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Glacial Amplifier"
+			tasks: [{
+				id: "710558D1A8A00C03"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:glacial_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2555061ADD16974E"]
+			id: "69F78AAB657D1F58"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "30EB25CA461C8221"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Permafrost Amplifier"
+			tasks: [{
+				id: "31474299B7C76109"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:permafrost_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2555061ADD16974E"]
+			id: "4C8E287327103650"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "3A21143C3C20B224"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Blizzard Amplifier"
+			tasks: [{
+				id: "18369392FE0418B1"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:blizzard_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3C0F9BAA17CDB6C3"]
+			id: "5152FF04F1C6826F"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "62FC7F823DE9E29A"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Storm Fury Amplifier"
+			tasks: [{
+				id: "0596D42EF92D2FBA"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:storm_fury_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3C0F9BAA17CDB6C3"]
+			id: "6524E8C763F8DB26"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "5FBC86F8DF707184"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Static Amplifier"
+			tasks: [{
+				id: "0AFCED5F4DF5C711"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:static_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3C0F9BAA17CDB6C3"]
+			id: "19B78211600BA987"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "7D6F9280F722DC7F"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Superstorm Amplifier"
+			tasks: [{
+				id: "5F7D54CA65DFFA26"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:superstorm_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3C0F9BAA17CDB6C3"]
+			id: "5E79AD771E3E02E5"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "23B29BD06CD01684"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Charged Amplifier"
+			tasks: [{
+				id: "702C073149E6D080"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:charged_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3C0F9BAA17CDB6C3"]
+			id: "560DA1507E5E3CF0"
+			rewards: [{
+				command: "/motp add xp 100 @s"
+				elevate_perms: true
+				icon: "memory_of_the_past:codex_of_ascension"
+				id: "31AD391589E16ADB"
+				title: "+100 xp"
+				type: "command"
+			}]
+			subtitle: "Craft x1 Overload Amplifier"
+			tasks: [{
+				id: "36F043C7B42A0D6A"
+				item: {
+					Count: 1
+					id: "fine_tuned_weaponry:overload_amplifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			description: ["Once you kill 50 zombie you can unlock the inferno core"]
+			icon: {
+				Count: 1
+				id: "fine_tuned_weaponry:inferno_core"
+				tag: { }
+			}
+			id: "450430A1086B4C97"
+			rewards: [
+				{
+					command: "/motp add xp 50 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "0E1DBDF8E169317A"
+					title: "+50 xp"
+					type: "command"
+				}
+				{
+					id: "7DFF498FB7FA3EEF"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:inferno_core"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Kill x50 Zombie"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "301943A524F8E37A"
+				type: "kill"
+				value: 50L
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			description: ["Once you kill 50 Skeletons you can unlock the Storm Shard"]
+			icon: {
+				Count: 1
+				id: "fine_tuned_weaponry:storm_shard"
+				tag: { }
+			}
+			id: "3DE382B160F86553"
+			rewards: [
+				{
+					command: "/motp add xp 50 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "6340FECAFBCAB8DD"
+					title: "+50 xp"
+					type: "command"
+				}
+				{
+					id: "169866BFF6E2B8DD"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:storm_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Kill x50 Skeletons"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "4226D84A95CF70AE"
+				type: "kill"
+				value: 50L
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			description: ["Once you kill 20 Skeletons you can unlock the Storm Shard"]
+			icon: {
+				Count: 1
+				id: "fine_tuned_weaponry:frost_rune"
+				tag: { }
+			}
+			id: "311B5E06C523F104"
+			rewards: [
+				{
+					command: "/motp add xp 50 @s"
+					elevate_perms: true
+					icon: "memory_of_the_past:codex_of_ascension"
+					id: "0AB013FC64F819CD"
+					title: "+50 xp"
+					type: "command"
+				}
+				{
+					id: "5B2159DE6E6F27BE"
+					item: {
+						Count: 1
+						id: "fine_tuned_weaponry:frost_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Kill x20 Polar Bear"
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "46CCAC6F5E010D86"
+				type: "kill"
+				value: 20L
+			}]
+			x: 7.0d
+			y: 1.0d
 		}
 	]
 	title: "Fine-tuned Weapons"
