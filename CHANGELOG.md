@@ -1,3 +1,14 @@
+## [0.5.0b]
+
+- **Attack Damage**: Reduced from **5** → **1** per point
+- **Forge**: Updated to latest version
+- **All The Mods**: Updated to latest version
+- **VP (XP to Level)**: Now set to **0.2** in the Overworld  
+  *(This change makes leveling up harder.)*
+- **Quests**:  
+  - Fixed Fine-Tuned Chapter Quests  
+  - Added new Quests
+
 ## [0.4.0]
 
 ## Updated All the mods
